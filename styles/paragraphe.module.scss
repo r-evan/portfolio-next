@@ -1,0 +1,22 @@
+.para{
+    padding: 40px;
+    width: 100%;
+    font-size: 1.2em;
+    line-height: 28px;
+    font-weight: 100;
+    background-color: rgba(66, 62, 52, 0.185);
+    margin-bottom: 70px;
+
+}
+.para h3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 350px){
+    .para{
+        padding: 30px 10px;
+    }
+    .para h3{
+        font-size: 1.2em;
+    }
+}

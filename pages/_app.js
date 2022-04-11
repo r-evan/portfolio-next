@@ -1,7 +1,11 @@
-import '../styles/globals.css'
+import '../styles/globals.scss'
+import Layout from '../components/Layout'
+import '../styles/navbar.scss'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  )
 }
-
-export default MyApp

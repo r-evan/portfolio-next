@@ -1,0 +1,161 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    -ms-scroll-snap-type: y mandatory;
+        scroll-snap-type: y mandatory;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: center;
+
+}
+
+.message-accueil{
+  max-width: 750px;
+  padding: 40px;
+  position: relative;
+
+}
+
+.message-accueil h1{
+  margin-bottom: 25px;
+  font-size: 1.8em;
+  font-weight: 100;
+
+}
+
+.message-accueil p{
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.message-accueil span{
+  display: block;
+  position: absolute;
+  background-color: white;
+}
+
+.message-accueil span:nth-child(1){
+  left: 0;
+  bottom: 0;
+  width: 1px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  -webkit-animation: 0.8s vertical forwards;
+          animation: 0.8s vertical forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.message-accueil span:nth-child(2){
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  -webkit-animation: 0.8s horizontal forwards;
+          animation: 0.8s horizontal forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.message-accueil span:nth-child(3){
+  right: 0;
+  bottom: 0;
+  width: 1px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  -webkit-animation: 0.8s vertical forwards;
+          animation: 0.8s vertical forwards;
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+}
+.message-accueil span:nth-child(4){
+  left: 0;
+  top: 0;
+  height: 1px;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  -webkit-animation: 0.8s horizontal forwards;
+          animation: 0.8s horizontal forwards;
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+}
+.categories{
+  margin-top: 72px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bloc-titre{
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+@-webkit-keyframes vertical{
+  100%{
+    transform: scaleY(1);
+  }
+}
+
+@keyframes vertical{
+  100%{
+    transform: scaleY(1);
+  }
+}
+@-webkit-keyframes horizontal{
+  100%{
+    transform: scaleX(1);
+  }
+}
+@keyframes horizontal{
+  100%{
+    transform: scaleX(1);
+  }
+}
+  @media screen and (max-width: 1000px) {
+    .categories{
+      font-size: 0.9em;
+    }
+  }
+
+@media screen and (max-width: 650px) {
+  .section{
+    scroll-snap-align: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .message-accueil{
+    padding: 20px;
+  }
+  .message-accueil h1{
+    font-size: 1.5em;
+  }
+  .message-accueil p{
+    font-size: 14px;
+  }
+  .message-accueil span{
+    font-size: 12px;
+  }
+  .categories{
+    margin-top: 72px;
+  }
+}
+  

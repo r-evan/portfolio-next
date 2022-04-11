@@ -1,0 +1,44 @@
+.savoir{
+    width: 50%;
+    margin-bottom: 15px;
+
+}
+.barre{
+    width: 75%;
+    position: relative;
+    height: 10px;
+    background-color: rgb(194, 194, 194);
+    border-radius: 5px;
+}
+.jauge{
+    height: 10px;
+    border-radius: 5px;
+    background-color:#1F3763;
+    width: 0px;
+    -webkit-animation-name: progress;
+            animation-name: progress;
+    -webkit-animation-duration: 800ms;
+            animation-duration: 800ms;
+    -webkit-animation-delay: calc(600ms * var(--i));
+            animation-delay: calc(600ms * var(--i));
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes progress {
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: var(--width);
+    }
+}
+
+@keyframes progress {
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: var(--width);
+    }
+}

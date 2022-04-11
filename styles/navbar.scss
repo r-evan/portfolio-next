@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #1d1a20;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100vw;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    margin-right: 40px;
+}
+a{
+    transition: 0.3s color;
+
+}
+nav li a:hover{
+    color: rgb(199, 191, 191);
+}
+@media screen and (max-width: 1000px){
+    nav ul{
+        display: none;
+    }
+}

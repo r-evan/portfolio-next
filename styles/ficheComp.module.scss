@@ -1,0 +1,125 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    -ms-scroll-snap-type: y mandatory;
+        scroll-snap-type: y mandatory;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.section{
+    margin: calc(50vh - 70px)  0;
+    height: 800px !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titre{
+    position: relative;
+    padding: 40px 80px;
+}
+.titre span{
+    display: block;
+    position: absolute;
+    background-color: white;
+  }
+ 
+
+
+  .titre span:nth-child(1){
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    -webkit-animation: 0.8s vertical linear forwards;
+            animation: 0.8s vertical linear forwards;
+    -webkit-animation-delay: 1.3s;
+            animation-delay: 1.3s;
+  }
+  .titre span:nth-child(2){
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: right;
+    -webkit-animation: 0.8s horizontal linear forwards;
+            animation: 0.8s horizontal linear forwards;
+    -webkit-animation-delay: 1.3s;
+            animation-delay: 1.3s;
+  }
+  .titre span:nth-child(3){
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    -webkit-animation: 0.8s vertical linear forwards;
+            animation: 0.8s vertical linear forwards;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+  }
+  .titre span:nth-child(4){
+    right: 0;
+    top: 0;
+    height: 1px;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: right;
+    -webkit-animation: 0.8s horizontal linear forwards;
+            animation: 0.8s horizontal linear forwards;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+  }
+.container a{
+    color: rgb(253, 132, 132) !important;
+}
+
+@media screen and (max-width: 540px){
+    .titre{
+        position: relative;
+        padding: 30px 20px;
+        text-align: center;
+      }
+      .section{
+        margin: calc(50vh - 45px) 20px;
+
+      }
+}
+@media screen and (max-width: 330px){
+  .container p{
+    font-size: 0.9em;
+  }
+}
+@-webkit-keyframes vertical{
+    100%{
+      transform: scaleY(1);
+    }
+  }
+@keyframes vertical{
+    100%{
+      transform: scaleY(1);
+    }
+  }
+  @-webkit-keyframes horizontal{
+    100%{
+      transform: scaleX(1);
+    }
+  }
+  @keyframes horizontal{
+    100%{
+      transform: scaleX(1);
+    }
+  }
