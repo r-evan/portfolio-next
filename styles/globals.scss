@@ -55,7 +55,11 @@ body::-webkit-scrollbar {
     display: none;
 }
 .background{
-  overflow: hidden;
+  overflow: hidden !important;
+  position: absolute !important;
+  height: 100% !important;
+  width: 100% !important;
+
 }
 $particleSize: 60vmin;
 $animationDuration: 120s;
