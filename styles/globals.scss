@@ -36,20 +36,7 @@ body::-webkit-scrollbar {
 }
 
 
-@supports (-moz-appearance:none) {
-    .background{
-      display: none;
-     
-    }
-    body{
-      background-image: url("/bg.jpg") !important;
-      background-size: cover;
-    }
-    .next-page{
-      background-color: rgba(0, 0, 0, 0.30);
-    }
-    
-}
+
 
 .container::-webkit-scrollbar {
     display: none;
@@ -113,5 +100,32 @@ $amount: 11;
       transform: translate3d(0, 0, 1px) rotate(360deg);
     }
 }
+
+@supports (-moz-appearance:none) {
+  .background{
+    display: none;
+   
+  }
+  body{
+    background-image: url("/bg.jpg") !important;
+    background-size: cover;
+  }
+  .next-page{
+    background-color: rgba(0, 0, 0, 0.30);
+  }
   
-    
+}
+@media screen and (max-width: 400px){
+  .background{
+      display: none;
+    }
+    body{
+      background-image: url("/bg.jpg") !important;
+      background-size: cover;
+    }
+    .next-page{
+      background-color: rgba(0, 0, 0, 0.30);
+      backdrop-filter: blur(7px);
+
+    }
+}
