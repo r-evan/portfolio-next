@@ -23,7 +23,7 @@ const Veille = () => {
                 <section>
                     <h2>Une veille informationnelle?</h2>
                     <p>
-                        Une veille est une activitée consistant à rester au courant des dernières avancées et infos sur
+                        Une veille est une activité consistant à rester au courant des dernières avancées et infos sur
                         un secteur donné. pendant mon BTS j’ai choisi de réaliser ma veille sur deux sujets :
                     </p><br></br>
                     <p>
@@ -92,7 +92,7 @@ const Veille = () => {
                         Ma synthèse : Bien que les mises à jour importantes soient peu fréquente, la popularité
                         de javascript ne fais aucun doute et les nouvelles librairies/Framework sont fréquentes,
                         les dernières mises à jour de mes principaux Framework (Vue, React) sont mineures, la popularité de ces technologies
-                        stagne bien quelles soient déjà encrées dans l’écosystème de JavaScript
+                        stagne bien quelles soient déjà encrées dans l’écosystème de JavaScript.
                     </p><br></br>
                     <p>
                         Conclusion : J’ai apprécié réalisé cette veille car les nouvelles librairies JavaScript sont intéressantes,

@@ -36,8 +36,6 @@ body::-webkit-scrollbar {
 }
 
 
-
-
 .container::-webkit-scrollbar {
     display: none;
 }
@@ -80,8 +78,6 @@ $amount: 11;
         left: random(100) * 1%;
         -webkit-animation-duration: (random($animationDuration * 10) / 10) * 1s + 10s;
                 animation-duration: (random($animationDuration * 10) / 10) * 1s + 10s;
-        -webkit-animation-delay: random(($animationDuration + 10s) * 10) / 10 * -1s;
-                animation-delay: random(($animationDuration + 10s) * 10) / 10 * -1s;
         transform-origin: (random(50) - 25) * 1vw (random(50) - 25) * 1vh;
         $x: if(random() > 0.5, -1, 1);
         background-color:  currentColor;
@@ -111,6 +107,7 @@ $amount: 11;
     background-size: cover;
   }
   .next-page{
+    backdrop-filter: blur(0px);
     background-color: rgba(0, 0, 0, 0.30);
   }
   
@@ -119,13 +116,11 @@ $amount: 11;
   .background{
       display: none;
     }
-    body{
-      background-image: url("/bg.jpg") !important;
-      background-size: cover;
-    }
+ 
     .next-page{
-      background-color: rgba(0, 0, 0, 0.30);
-      backdrop-filter: blur(7px);
+      backdrop-filter: blur(0px);
+
+      background-image: linear-gradient(to right bottom, #043d92, #00347a, #002b63, #02224d, #051937);
 
     }
 }

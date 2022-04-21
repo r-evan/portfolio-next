@@ -4,6 +4,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import img from "../public/defi2.png"
 import Jauge from "../components/Jauge"
 import Head from "next/head"
+import Script from 'next/script'
+
 
 const Cv = () => {
 
@@ -150,14 +152,14 @@ const Cv = () => {
                             <p>Le menu de navigation sur mobile utilise un peu de javascript pour l&apos;afficher en appuyant sur le bouton
                                 et pour cacher le menu si la taille de l’écran repasse au-dessus d’une certaine taille.</p>
                             <p>De même sur les grands écrans j’ai utilisé du javascript pour scinder la page en 2 parties déplaçables,
-                                pas vraiment par but esthétique mais plutôt parce que coder cette fonctionnalité m&apos;intéresser
+                                pas vraiment par but esthétique mais plutôt parce que coder cette fonctionnalité m&apos;intéresser.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <script async type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-            <script async noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <Script  strategy="beforeInteractive" type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
+            <Script  strategy="beforeInteractive" type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
 
         </div>
     );

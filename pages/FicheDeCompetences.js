@@ -100,7 +100,7 @@ const FicheDeCompetences = () => {
                     </p>
                     <p>
                         1.3.X : pour m’aider dans ma tâche j’ai utilisé un <LC lien={"/competences/Reco_PlanMarketing_IB-3-1.pdf"}>plan de recommandation marketing</LC>, de par sa richesse d’information il m’a été très utile,
-                        je considère que pour les compétences 1.3.X ainsi que pour la 1.2.3 et la 1.5.2, le site en lui-même est un élément de preuve ( on peut voit mon nom au bas de la page ).
+                        je considère que pour les compétences 1.3.X ainsi que pour la 1.2.3 et la 1.5.2, le site en lui-même est un élément de preuve ( on peut voir mon nom au bas de la page ).
                     </p>
                     <p>
                         1.4.2 : chaque semaine avec ma tutrice de stage je faisais le point sur les <LC lien={"/competences/activites.pdf"}>choses à faires</LC>.
@@ -137,7 +137,7 @@ const FicheDeCompetences = () => {
                     </p>
                     <p>
                         1.1.2 : Naturellement quand je code je respect des <LC lien={"/competences/norme.png"}>normes d’écriture</LC> et des conventions de nommage, dans le normes d’écriture par exemple j’utilise le camel Case,
-                        le Pascal Case ou encore le kebab-case en CSS, et dans les conventions de nommage par exemple en TypeScript mettre un I devant les noms utilisés pour les interfaces.
+                        le Pascal Case ou encore le kebab-case en CSS, et dans les conventions de nommage par exemple en TypeScript mettre un "I" devant les noms utilisés pour les interfaces.
                     </p>
                     <p>
                         1.6.3 / 1.6.4 : D’une certaine façon le fait de faire ces projets et de <LC lien={"/competences/github.png"}>partager certains d’entre eux sur Github</LC> construit mon identité professionnelle.
@@ -148,7 +148,7 @@ const FicheDeCompetences = () => {
                         Compétences mises en œuvre : 1.1.2 / 1.1.3 / 1.4.2 / 1.5.1
                     </p>
                     <p>
-                        1.1.2 : De la même manière que pour la section d’en dessus j’ai utilisé dans le projet des normes d’écritures
+                        1.1.2 : De la même manière que pour la section au dessus j’ai utilisé dans le projet des normes d’écriture
                     </p>
                     <p>
                         1.1.3 : Dans le cadre du projet un nouveau compte sur PhpMyadmin a été créé, ce compte n’a accès qu’au strict minimum dans la base de données et c’est ce dernier qui est utiliser pour récupérer les données.

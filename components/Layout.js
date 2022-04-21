@@ -7,6 +7,7 @@ export default function Layout({ children }) {
     <>
       <Head>
         <link rel="icon" href="/images/nom-ico.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       </Head>
       <NavBar />
 
