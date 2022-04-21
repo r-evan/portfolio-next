@@ -137,7 +137,7 @@ const FicheDeCompetences = () => {
                     </p>
                     <p>
                         1.1.2 : Naturellement quand je code je respect des <LC lien={"/competences/norme.png"}>normes d’écriture</LC> et des conventions de nommage, dans le normes d’écriture par exemple j’utilise le camel Case,
-                        le Pascal Case ou encore le kebab-case en CSS, et dans les conventions de nommage par exemple en TypeScript mettre un "I" devant les noms utilisés pour les interfaces.
+                        le Pascal Case ou encore le kebab-case en CSS, et dans les conventions de nommage par exemple en TypeScript mettre un &apos;I&apos; devant les noms utilisés pour les interfaces.
                     </p>
                     <p>
                         1.6.3 / 1.6.4 : D’une certaine façon le fait de faire ces projets et de <LC lien={"/competences/github.png"}>partager certains d’entre eux sur Github</LC> construit mon identité professionnelle.
