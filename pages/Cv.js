@@ -37,7 +37,7 @@ const Cv = () => {
             <div className={styles.cv}>
                 <aside className={styles.aside}>
                     <div className={styles.img}>
-                        <Image alt="photos" src="/tete.png" width={200} height={200} />
+                        <Image alt="photos" src="/photos2.jpg" width={200} height={200} />
                     </div>
                     <h1 className={styles.nom}>Evan Rioual</h1>
                     <div className={styles.block}>

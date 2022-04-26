@@ -103,7 +103,7 @@ $amount: 11;
    
   }
   body{
-    background-image: url("/bg.jpg") !important;
+    background-image: url("/background.jpg") !important;
     background-size: cover;
   }
   .next-page{
@@ -112,15 +112,14 @@ $amount: 11;
   }
   
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 580px){
   .background{
       display: none;
     }
- 
     .next-page{
       backdrop-filter: blur(0px);
-
-      background-image: linear-gradient(to right bottom, #043d92, #00347a, #002b63, #02224d, #051937);
+      background-size: cover;
+      background-image: url("/background.jpg");
 
     }
 }
