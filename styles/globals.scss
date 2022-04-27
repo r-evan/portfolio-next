@@ -46,9 +46,9 @@ body::-webkit-scrollbar {
   width: 100% !important;
 
 }
-$particleSize: 60vmin;
+$particleSize: 90vmin;
 $animationDuration: 120s;
-$amount: 11;
+$amount: 7;
 .background span {
     width: $particleSize;
     height: $particleSize;
@@ -68,15 +68,19 @@ $amount: 11;
       #161b2b,
       #2b161c,
       #201420,
-      #292626
+      #292626,
+      #161b2b,
+      #2b161c,
+      #161b2b
+
       
     );
     @for $i from 1 through $amount {
       &:nth-child(#{$i}) {
-        color: nth($colors, random(length($colors)));
+        color: nth($colors, $i);
         top: random(100) * 1%;
         left: random(100) * 1%;
-        -webkit-animation-duration: (random($animationDuration * 10) / 10) * 1s + 10s;
+        -webkit-animation-duration: (random($animationDuration * 10) / 10) * 1s + 120s;
                 animation-duration: (random($animationDuration * 10) / 10) * 1s + 10s;
         transform-origin: (random(50) - 25) * 1vw (random(50) - 25) * 1vh;
         $x: if(random() > 0.5, -1, 1);
@@ -112,7 +116,7 @@ $amount: 11;
   }
   
 }
-@media screen and (max-width: 580px){
+@media screen and (max-width: 610px){
   .background{
       display: none;
     }

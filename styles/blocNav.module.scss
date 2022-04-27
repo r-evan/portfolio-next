@@ -10,6 +10,10 @@
     flex-direction: column;
     justify-content: center;
     cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  .bloc:hover{
+    background-color: #f2f2f215;
   }
   .bloc h3{
     margin-bottom: 20px;
