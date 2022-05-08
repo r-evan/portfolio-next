@@ -1,5 +1,4 @@
 import styles from "../styles/etude.module.scss"
-import Image from "next/image"
 import Head from "next/head"
 
 
@@ -71,7 +70,7 @@ const Etudes = () => {
                         qu’aux répertoires autorisés.
                     </p>
                     <div className={styles["image-container"]} >
-                        <Image alt="script bash" src="/bash.png" className={styles["sio-image"]} layout="fill" />
+                        <img width="100%" heigth="100%" alt="script bash" src="/bash.png" className={styles["sio-image"]}></img>
                     </div>
                 </section>
                 <section className={styles.row2} >
@@ -83,7 +82,7 @@ const Etudes = () => {
                         passe n’est pas envoyés « en claire » dans la base de données, il est d’abord hashé.
                     </p>
                     <div className={styles["image-container"]} >
-                        <Image alt="script php cayak_mor" src="/PHP.png" className={styles["sio-image"]} layout="fill" />
+                        <img width="100%" heigth="100%" alt="script php cayak_mor" src="/PHP.png" className={styles["sio-image"]}></img>
                     </div>
                 </section>
                 <section className={styles.row3}>
@@ -94,7 +93,7 @@ const Etudes = () => {
                         de code MVC (Model-View-Controller).
                     </p>
                     <div className={styles["image-container"]} >
-                        <Image alt="capture d'écran page login kayak_mor" className={styles["sio-image"]} src="/kayak.png" layout="fill" />
+                        <img width="100%" heigth="100%" alt="capture d'écran page login kayak_mor" className={styles["sio-image"]} src="/kayak.png"></img>
                     </div>
                 </section>
             </div>

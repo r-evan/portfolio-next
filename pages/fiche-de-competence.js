@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from 'next/link'
 import styles from '../styles/ficheComp.module.scss'
 import LC from '../components/LinkComp';
@@ -34,7 +33,7 @@ const FicheDeCompetences = () => {
                 <Link href={"/fiche-de-comp.png"}>
                     <a href='/fiche-de-comp.png' target='_blank'>
                         <div style={{ width: '100%', minHeight: '200px', height:"40vw" , position: 'relative' }}>
-                            <Image src={"/fiche-de-comp.png"} alt="Picture of the author" layout='fill' objectFit="contain" />
+                            <img height="100%" width="100%" src={"/fiche-de-comp.png"} alt="Picture of the author" ></img>
                         </div><br></br>
                     </a>
                 </Link>

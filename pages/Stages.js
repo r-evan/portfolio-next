@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from "../styles/stages.module.scss"
-import Image from "next/image"
 import Link from 'next/link'
 import Head from 'next/head'
 
@@ -29,7 +28,7 @@ const Stages = () => {
                     <section>
                         <h3>Stage du 25 Mai au 25 Juin 2021 à l&apos;IUT de Quimper</h3>
                         <div className={styles["image-container"]}>
-                            <Image alt="logo iut quimper" src="/logo-iut.png" className={styles["image"]} layout="fill" />
+                            <img heigth="100%" width="100%" alt="logo iut quimper" src="/logo-iut.png" className={styles["image"]}  ></img>
                         </div>
                         <p>
                             Le stage a durée 5 semaines, il m’a permis de m’améliorer dans plusieurs domaines car
@@ -74,7 +73,7 @@ const Stages = () => {
                     <section>
                         <h3>Dans le conseil départemental de Novembre à Décembre 2019</h3>
                         <div className={styles["image-container"]}>
-                            <Image alt="logo conseil général finistère" src="/logo-conseil-g.png" className={styles["image"]} layout="fill" />
+                            <img heigth="100%" width="100%" alt="logo conseil général finistère" src="/logo-conseil-g.png" className={styles["image"]}  ></img>
                         </div>
                         <p>
                             Stage de 4 semaines dans le service informatique du conseil départemental, la structure du réseau des nombreux
@@ -87,7 +86,7 @@ const Stages = () => {
                     <section>
                         <h3>Dans la DSI de la mairie de Quimper de Juin à Juillet 2019</h3>
                         <div className={styles["image-container"]}>
-                            <Image alt="logo ville de quimper" src="/logo-ville-quimper_horizontal.png" className={styles["image"]} layout="fill" />
+                            <img heigth="100%" width="100%" alt="logo ville de quimper" src="/logo-ville-quimper_horizontal.png" className={styles["image"]} ></img>
                         </div>
                         <p>
                             Stage de 5 semaines dans la direction des systèmes d’information, le service s’occupe principalement des interventions en cas
