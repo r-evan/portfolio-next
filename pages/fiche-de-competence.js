@@ -4,11 +4,12 @@ import LC from '../components/LinkComp';
 import Accordeon from "../components/Accordeon";
 import Para from "../components/Paragraphe";
 import Head from 'next/head'
+import Container from '../components/Container';
 
 const FicheDeCompetences = () => {
 
     return (
-        <div className={styles.container}>
+        <Container>
             <Head>
                 <title>Fiche de compétence - Portfolio Evan Rioual</title>
                 <meta name="description" content="Page de validation des compétences du BTS SIO,
@@ -32,7 +33,7 @@ const FicheDeCompetences = () => {
                 </p><br></br>
                 <Link href={"/fiche-de-comp.png"}>
                     <a href='/fiche-de-comp.png' target='_blank'>
-                        <div style={{ width: '100%', minHeight: '200px', height:"40vw" , position: 'relative' }}>
+                        <div style={{ width: '100%', minHeight: '200px', height: "40vw", position: 'relative' }}>
                             <img height="100%" width="100%" src={"/fiche-de-comp.png"} alt="Picture of the author" ></img>
                         </div><br></br>
                     </a>
@@ -171,7 +172,7 @@ const FicheDeCompetences = () => {
                 </Accordeon>
             </Para>
 
-        </div>
+        </Container>
     );
 };
 

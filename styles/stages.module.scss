@@ -1,37 +1,6 @@
-.container{
-    height: 100vh;
-    width: 100%;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    -ms-scroll-snap-type: y mandatory;
-        scroll-snap-type: y mandatory;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.container::-webkit-scrollbar {
-  display: none;
-}
+@import "./header.scss";
 
-.section{
-    margin: calc(50vh - 70px)  0;
-    height: 800px !important;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.titre{
-    position: relative;
-    padding: 60px 120px;
-}
-.titre span{
-    display: block;
-    position: absolute;
-    background-color: white;
-  }
-  
 .titre span:nth-child(1){
     left: 0;
     bottom: 0;
@@ -91,8 +60,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: calc(100% - 80px);
-
+    margin-bottom: 60px;
 }
 .para section{
     width: 45%;
@@ -101,6 +69,7 @@
     line-height: 28px;
     font-size: 1.2em;
     font-weight: 100;
+    
   }
   .para h3{
     margin-bottom: 30px;

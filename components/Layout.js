@@ -4,7 +4,7 @@ import Head from 'next/head'
 export default function Layout({ children }) {
 
   return (
-    <>
+    <div className="container">
       <Head>
         <link rel="icon" href="/images/nom-ico.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
@@ -24,8 +24,8 @@ export default function Layout({ children }) {
         <span></span>
         <span></span>
       </div>
-      <div className="next-page">{children}</div>
+      <div className="page">{children}</div>
 
-    </>
+    </ div>
   )
 }

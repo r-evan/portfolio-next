@@ -1,11 +1,14 @@
 import styles from "../styles/etude.module.scss"
 import Head from "next/head"
+import Container from "../components/Container"
+import Section from "../components/Section"
 
 
 const Etudes = () => {
     return (
 
-        <div className={styles.container}>
+
+        <Container>
             <Head>
                 <title>Études - Portfolio Evan Rioual</title>
                 <meta name="description" content="Page de présentation de mes études du Portfolio,
@@ -21,7 +24,7 @@ const Etudes = () => {
                     <h1>Mes Études</h1>
                 </div>
             </div>
-            <div className={styles["bts-sio"]} >
+            <div className={styles["double-section"]} >
                 <section>
                     <h2>BTS SIO</h2>
                     <p>
@@ -55,10 +58,10 @@ const Etudes = () => {
                     </p>
                 </section>
             </div>
-            <div className={styles["sio1-activites"]}>
+            <Section>
                 <h2>Quelques activités réalisées en 1er année</h2>
                 <p className={styles["sous-titre"]}>Les travaux pendant la 1er ont majoritairement étaient réalisés pendant le
-                    confinement, et donc en autonomie
+                confinement, et donc en autonomie
                 </p>
                 <section className={styles.row1}>
                     <p>
@@ -96,8 +99,8 @@ const Etudes = () => {
                         <img width="100%" heigth="100%" alt="capture d'écran page login kayak_mor" className={styles["sio-image"]} src="/kayak.png"></img>
                     </div>
                 </section>
-            </div>
-            <div className={styles["bac-pro"]} >
+            </Section>
+            <div className={styles["double-section"]} >
                 <section>
                     <h2>BAC PRO SN</h2>
                     <p>
@@ -128,7 +131,7 @@ const Etudes = () => {
                     </p>
                 </section>
             </div>
-        </div>
+        </Container>
     );
 };
 

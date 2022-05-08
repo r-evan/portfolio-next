@@ -1,3 +1,5 @@
+@import "./header.scss";
+
 .container{
     height: 100vh;
     width: 100%;
@@ -13,23 +15,7 @@
 .container::-webkit-scrollbar {
     display: none;
   }
-.section{
-    margin: calc(50vh - 70px) 20px;
-    height: 800px !important;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .titre{
-    position: relative;
-    padding: 60px 120px;
-  }
-  .titre span{
-    display: block;
-    position: absolute;
-    background-color: white;
-  }
+
 .titre span:nth-child(1){
     left: 0;
     bottom: 0;

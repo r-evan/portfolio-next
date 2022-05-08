@@ -1,9 +1,10 @@
 import styles from "../styles/veille.module.scss"
 import Head from "next/head"
+import Container from "../components/Container"
 
 const Veille = () => {
     return (
-        <div className={styles.container}>
+        <Container>
             <Head>
                 <title>Veille informatiques - Portfolio Evan Rioual</title>
                 <meta name="description" content="Page de présentation du condensé de mes veilles informatiques,
@@ -100,7 +101,7 @@ const Veille = () => {
                     </p>
                 </section>
             </div>
-        </div>
+        </Container>
     );
 };
 
