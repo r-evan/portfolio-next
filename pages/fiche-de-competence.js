@@ -5,6 +5,7 @@ import Accordeon from "../components/Accordeon";
 import Para from "../components/Paragraphe";
 import Head from 'next/head'
 import Container from '../components/Container';
+import Image from 'next/image';
 
 const FicheDeCompetences = () => {
 
@@ -34,7 +35,7 @@ const FicheDeCompetences = () => {
                 <Link href={"/fiche-de-comp.png"}>
                     <a href='/fiche-de-comp.png' target='_blank'>
                         <div style={{ width: '100%', minHeight: '200px', height: "40vw", position: 'relative' }}>
-                            <img height="100%" width="100%" src={"/fiche-de-comp.png"} alt="Picture of the author" ></img>
+                            <Image  src={"/fiche-de-comp.png"} alt="Picture of the author" layout="fill" />
                         </div><br></br>
                     </a>
                 </Link>

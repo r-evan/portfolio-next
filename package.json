@@ -1,7 +1,7 @@
 {
   "name": "portfolio-next",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next -p 8080" ,
     "build": "next build",

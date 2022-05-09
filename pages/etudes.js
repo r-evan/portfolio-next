@@ -2,6 +2,7 @@ import styles from "../styles/etude.module.scss"
 import Head from "next/head"
 import Container from "../components/Container"
 import Section from "../components/Section"
+import Image from 'next/image';
 
 
 const Etudes = () => {
@@ -61,7 +62,7 @@ const Etudes = () => {
             <Section>
                 <h2>Quelques activités réalisées en 1er année</h2>
                 <p className={styles["sous-titre"]}>Les travaux pendant la 1er ont majoritairement étaient réalisés pendant le
-                confinement, et donc en autonomie
+                    confinement, et donc en autonomie
                 </p>
                 <section className={styles.row1}>
                     <p>
@@ -73,7 +74,9 @@ const Etudes = () => {
                         qu’aux répertoires autorisés.
                     </p>
                     <div className={styles["image-container"]} >
-                        <img width="100%" heigth="100%" alt="script bash" src="/bash.png" className={styles["sio-image"]}></img>
+                        <Image alt="script bash" src="/bash.png" layout="fill" className={styles["sio-image"]} />
+
+
                     </div>
                 </section>
                 <section className={styles.row2} >
@@ -85,7 +88,9 @@ const Etudes = () => {
                         passe n’est pas envoyés « en claire » dans la base de données, il est d’abord hashé.
                     </p>
                     <div className={styles["image-container"]} >
-                        <img width="100%" heigth="100%" alt="script php cayak_mor" src="/PHP.png" className={styles["sio-image"]}></img>
+                        
+                    <Image alt="script php cayak_mor" src="/PHP.png" layout="fill" className={styles["sio-image"]} />
+
                     </div>
                 </section>
                 <section className={styles.row3}>
@@ -96,7 +101,8 @@ const Etudes = () => {
                         de code MVC (Model-View-Controller).
                     </p>
                     <div className={styles["image-container"]} >
-                        <img width="100%" heigth="100%" alt="capture d'écran page login kayak_mor" className={styles["sio-image"]} src="/kayak.png"></img>
+                    <Image alt="capture d'écran page login kayak_mor"  src="/kayak.png" layout="fill" className={styles["sio-image"]} />
+
                     </div>
                 </section>
             </Section>

@@ -105,6 +105,8 @@
   min-width: 300px;
   display: flex;
   align-items: center;
+  min-height: 300px;
+
 }
 .row1 .image-container{    
   max-width: 600px;
@@ -120,7 +122,7 @@
      object-fit: contain;
   width: 100% !important;
   position: relative !important;
-  height: unset !important;
+  height: 100% !important;
   }
 
   @-webkit-keyframes vertical{

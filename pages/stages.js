@@ -3,7 +3,7 @@ import styles from "../styles/stages.module.scss"
 import Link from 'next/link'
 import Head from 'next/head'
 import Container from '../components/Container';
-import Paragraphe from '../components/Paragraphe';
+import Image from 'next/image';
 
 
 const Stages = () => {
@@ -30,13 +30,14 @@ const Stages = () => {
                     <section>
                         <h3>Stage du 6 Décembre au 28 janvier à Instants Botaniques</h3>
                         <div className={styles["image-container"]}>
-                            <img heigth="100%" width="100%" alt="logo iut quimper" src="/ib.jpg" className={styles["image"]}  ></img>
+                            <Image alt="logo iut quimper" src="/ib.jpg" layout="fill" className={styles["image"]} />
+
                         </div>
                         <p>
                             Instants Botaniques est une jeune marque de thé, le stage a durée 7 semaines
-                            durant lesquelles j'ai travaillé en tant que développeur web, ce stage a été important pour la marque car la boutique
-                            en ligne était à refaire d'urgence, c'est durant ce stage que j'ai le plus appris car
-                            j'ai dû mener le projet de bout en bout
+                            durant lesquelles j&apos;ai travaillé en tant que développeur web, ce stage a été important pour la marque car la boutique
+                            en ligne était à refaire d&apos;urgence, c&apos;est durant ce stage que j&apos;ai le plus appris car
+                            j&apos;ai dû mener le projet de bout en bout
                         </p><br></br>
                         <p>
                             <Link href="/note de synthèse-IB.pdf" ><a target="_blank">Voir la note de synthèse, </a></Link>
@@ -47,20 +48,20 @@ const Stages = () => {
                     <section>
                         <h3>Quelques activités réalisées :</h3>
                         <p>
-                            Création d'un nouveau site Wordpress / Woocommerce sur demande, à partir des données de l'ancien site sur prestashop,
-                            en 2 mois de stage j'ai eu de nombreuses demandes concernant l'esthétique de la boutique,
-                            j'ai donc été contraint d'ajouter beaucoup de css, des hooks woocommerce et du JavaScript,
-                            mais j'ai aussi eu à modifier la base de données et gérer les sauvegardes faites du site.
+                            Création d&apos;un nouveau site Wordpress / Woocommerce sur demande, à partir des données de l&apos;ancien site sur prestashop,
+                            en 2 mois de stage j&apos;ai eu de nombreuses demandes concernant l&apos;esthétique de la boutique,
+                            j&apos;ai donc été contraint d&apos;ajouter beaucoup de css, des hooks woocommerce et du JavaScript,
+                            mais j&apos;ai aussi eu à modifier la base de données et gérer les sauvegardes faites du site.
                         </p><br></br>
                         <p>
-                            Déploiement du site sur un hébergeur gratuit dans un premier temps (planet hoster) puis 
-                            sur OVH une fois l'application web entièrement realisé.
+                            Déploiement du site sur un hébergeur gratuit dans un premier temps (planet hoster) puis
+                            sur OVH une fois l&apos;application web entièrement realisé.
                         </p><br></br>
                         <p>
-                            Aide aux liaisons des adresses mails professionnelles Ghandi avec des adresses Gmail, pour envoyer et recevoir 
+                            Aide aux liaisons des adresses mails professionnelles Ghandi avec des adresses Gmail, pour envoyer et recevoir
                             sur la boite Gmail les mails professionnelles.
                         </p><br></br>
-                        
+
                     </section>
                 </div>
 
@@ -68,7 +69,8 @@ const Stages = () => {
                     <section>
                         <h3>Stage du 25 Mai au 25 Juin 2021 à l&apos;IUT de Quimper</h3>
                         <div className={styles["image-container"]}>
-                            <img heigth="100%" width="100%" alt="logo iut quimper" src="/logo-iut.png" className={styles["image"]}  ></img>
+                            <Image alt="logo iut quimper" src="/logo-iut.png" layout="fill" className={styles["image"]} />
+
                         </div>
                         <p>
                             Le stage a durée 5 semaines, il m’a permis de m’améliorer dans plusieurs domaines car
@@ -111,7 +113,8 @@ const Stages = () => {
                     <section>
                         <h3>Dans le conseil départemental de Novembre à Décembre 2019</h3>
                         <div className={styles["image-container"]}>
-                            <img heigth="100%" width="100%" alt="logo conseil général finistère" src="/logo-conseil-g.png" className={styles["image"]}  ></img>
+                            <Image alt="logo conseil général finistère" src="/logo-conseil-g.png" layout="fill" className={styles["image"]} />
+
                         </div>
                         <p>
                             Stage de 4 semaines dans le service informatique du conseil départemental, la structure du réseau des nombreux
@@ -124,7 +127,8 @@ const Stages = () => {
                     <section>
                         <h3>Dans la DSI de la mairie de Quimper de Juin à Juillet 2019</h3>
                         <div className={styles["image-container"]}>
-                            <img heigth="100%" width="100%" alt="logo ville de quimper" src="/logo-ville-quimper_horizontal.png" className={styles["image"]} ></img>
+                            <Image alt="logo ville de quimper" src="/logo-ville-quimper_horizontal.png" layout="fill" className={styles["image"]} />
+
                         </div>
                         <p>
                             Stage de 5 semaines dans la direction des systèmes d’information, le service s’occupe principalement des interventions en cas

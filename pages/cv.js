@@ -3,6 +3,7 @@ import React, { useRef, useState } from 'react';
 import Jauge from "../components/Jauge"
 import Head from "next/head"
 import Script from 'next/script'
+import Image from 'next/image';
 
 
 const Cv = () => {
@@ -35,7 +36,7 @@ const Cv = () => {
             <div className={styles.cv}>
                 <aside className={styles.aside}>
                     <div className={styles.img}>
-                        <img alt="photos" src="/photos2.jpg" width="200px" height="200px"></img>
+                        <Image alt="photos" src="/photos2.jpg" layout="fill" />
                     </div>
                     <h1 className={styles.nom}>Evan Rioual</h1>
                     <div className={styles.block}>
@@ -138,10 +139,14 @@ const Cv = () => {
                                 doit être affiché, doit s’ajuster en cas de changement, et doit prendre en compte les 25% de réduction
                                 si le bouton en dessous est coché.</p>
                         </div>
-                        <div className={styles['activite-img1']}> <img width="100%" height="100%" src="/defi1.png" alt="capture d'écran de mon 1er projet github"  className={styles.defi1}></img> </div>
+                        <div className={styles['activite-img1']}>
+                            <Image src={"/defi1.png"} alt="capture d'écran de mon 1er projet github" layout="fill" className={styles.sioImage} />
+                        </div>
                     </div>
                     <div className={styles['second-row']} >
-                        <div className={styles['activite-img2']}> <img width="100%" height="100%" src="/defi2.png" alt="capture d'écran de mon 2nd projet github"  className={styles.defi2}></img></div>
+                        <div className={styles['activite-img2']}>
+                            <Image src="/defi2.png" alt="capture d'écran de mon 2nd projet github" layout="fill" className={styles.sioImage}  />
+                        </div>
                         <div className={styles['activite-texte2']}>
                             <a href="https://r-evan.github.io/defi-2/" target="_blank" rel="noreferrer">https://r-evan.github.io/defi-2/</a>
                             <p>Cette page est aussi un challenge proposé par Frontend mentor, cette fois-ci l’aspect
@@ -156,8 +161,8 @@ const Cv = () => {
                     </div>
                 </div>
             </div>
-            <Script  strategy="beforeInteractive" type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
-            <Script  strategy="beforeInteractive" type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
+            <Script strategy="beforeInteractive" type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
+            <Script strategy="beforeInteractive" type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
 
         </div>
     );
