@@ -35,18 +35,73 @@ const FicheDeCompetences = () => {
                 <Link href={"/fiche-de-comp.png"}>
                     <a href='/fiche-de-comp.png' target='_blank'>
                         <div style={{ width: '100%', minHeight: '200px', height: "40vw", position: 'relative' }}>
-                            <Image  src={"/fiche-de-comp.png"} alt="Picture of the author" layout="fill" />
+                            <Image src={"/fiche-de-comp.png"} alt="Picture of the author" layout="fill" />
                         </div><br></br>
                     </a>
                 </Link>
                 <p>
-                    Ci-dessous vous pouvez télécharger un fichier Excel faisant le résumé des activités et des compétences associées
-                    à ces dernières. Je vais donc ci-dessous apporter des éléments de «preuve» aux différentes compétences que j’ai réalisées.
-                </p>
-                <p>
                     Tous les textes en <a href='#'>orange </a>sont des liens menant aux éléments de preuve.
                 </p>
+                <p>
+                    <LC lien={"/competences/Evan-tableau-synthese.ods"}>Lien du fichier excel de mon portefeuille de compétences. </LC>
+                </p><br></br>
+                <p>
+                    Je vais à present ci-dessous apporter des éléments de «preuve» aux différentes activités que j’ai réalisées.
 
+                </p>
+            </Para>
+            <Para>
+                <h3>Activités réalisées pendant les deux années de BTS SIO</h3>
+                <Accordeon titre={"Mise en place d'une veille informationnelle"}>
+                    <p>
+                        Compétences mises en œuvre : 1.6.1 / 1.6.2
+                    </p>
+                    <p>
+                        Comme on peut le voir dans l’onglet <Link href={"/veille-informationnelle"}>veille informationnelle</Link>, j’ai utilisé plusieurs outils pour faire ma veille ce qui valide les compétences 1.6.1 et 1.6.2.
+                        <br></br>Mon environnement d’apprentissage personnel ne se limite heureusement pas qu’à ma veille informationnelle,
+                        généralement j’utilise des documentations, des articles ou je regarde des tutoriels sur YouTube.
+                    </p>
+                </Accordeon>
+                <Accordeon titre={"Création de projets pour apprendre différents FrameWork"}>
+                    <p>
+                        Compétences mises en œuvre : 1.1.2 / 1.6.3 / 1.6.4
+                    </p>
+                    <p>
+                        1.1.2 : Naturellement quand je code je respect des <LC lien={"/competences/norme.png"}>normes d’écriture</LC> et des conventions de nommage, dans le normes d’écriture par exemple j’utilise le camel Case,
+                        le Pascal Case ou encore le kebab-case en CSS, et dans les conventions de nommage par exemple en TypeScript mettre un &apos;I&apos; devant les noms utilisés pour les interfaces.
+                    </p>
+                    <p>
+                        1.6.3 / 1.6.4 : D’une certaine façon le fait de faire ces projets et de <LC lien={"/competences/github.png"}>partager certains d’entre eux sur Github</LC> construit mon identité professionnelle.
+                    </p>
+                </Accordeon>
+                <Accordeon titre={"Création d'une application de gestion de frais en cours"}>
+                    <p>
+                        Compétences mises en œuvre : 1.1.2 / 1.1.3 / 1.4.2 / 1.5.1
+                    </p>
+                    <p>
+                        1.1.2 : De la même manière que pour la section au dessus j’ai utilisé dans le projet des normes d’écriture, mais j'ai aussi
+                        utilisé l'architecture MVC <LC lien={"/competences/preuve-mvc.png"}> l'architecture MVC</LC>
+                    </p>
+                    <p>
+                        1.1.3 : Dans le cadre du projet un nouveau compte sur PhpMyadmin a été créé, ce compte n’a accès qu’au strict minimum dans la base de données et c’est ce dernier qui est utiliser pour récupérer les données.
+                    </p>
+                    <p>
+                        1.4.2 : J’ai utilisé la platform Tuleap campus pour<LC lien={"/competences/tuleap.png"}> planifier, visualiser, répartir les tâches</LC> à faires.
+                    </p>
+                    <p>
+                        1.5.1 : Différents tests ont été effectués sur l’application pour trouver des bugs,
+                        j’ai aussi utilisé le <LC lien={"/competences/w3c.png"}>validateur de code HTML de la W3C</LC> comme on le voit sur l’image de l’interface de Tuleap de la compétence 1.4.2.
+                    </p>
+                </Accordeon>
+                <Accordeon titre={"Suivi d'un ticket GLPI"}>
+                    <p>
+                        Compétences mises en œuvre : 1.2.3 / 1.2.1
+                    </p>
+                    <p>
+                        1.2.1 / 1.2.3 : J’ai utilisé l’outil GLPI pour traiter une demande d’assistance applicative,
+                        un projet devais être mise en ligne mais comme on peux le voir il y a eu <LC lien={"/competences/glpi.png"}>quelques soucis</LC>.
+                    </p>
+                </Accordeon>
             </Para>
             <Para>
                 <h3>Activités faites durant le stage à l&apos;iut de quimper</h3>
@@ -117,58 +172,6 @@ const FicheDeCompetences = () => {
                     <p>
                         Ma tutrice de stage ne savait pas comment faire pour que dans Gmail elle et d’autres stagiaires puissent envoyer des mails avec une seconde adresse email professionnelle,
                         j’ai donc fait quelques recherches et ensuite crée un <LC lien={"/competences/redirection-mail.pdf"}>document tutoriel</LC> pour qu’ils puissent le faire eux-mêmes.
-                    </p>
-                </Accordeon>
-            </Para>
-            <Para>
-                <h3>Activités réalisées pendant les deux années de BTS SIO</h3>
-                <Accordeon titre={"Mise en place d'une veille informationnelle"}>
-                    <p>
-                        Compétences mises en œuvre : 1.6.1 / 1.6.2
-                    </p>
-                    <p>
-                        Comme on peut le voir dans l’onglet <Link href={"/Veille"}>veille informationnelle</Link>, j’ai utilisé plusieurs outils pour faire ma veille ce qui valide les compétences 1.6.1 et 1.6.2.
-                        <br></br>Mon environnement d’apprentissage personnel ne se limite heureusement pas qu’à ma veille informationnelle,
-                        généralement j’utilise des documentations, des articles ou je regarde des tutoriels sur YouTube.
-                    </p>
-                </Accordeon>
-                <Accordeon titre={"Création de petits projets pour apprendre différents FrameWork"}>
-                    <p>
-                        Compétences mises en œuvre : 1.1.2 / 1.6.3 / 1.6.4
-                    </p>
-                    <p>
-                        1.1.2 : Naturellement quand je code je respect des <LC lien={"/competences/norme.png"}>normes d’écriture</LC> et des conventions de nommage, dans le normes d’écriture par exemple j’utilise le camel Case,
-                        le Pascal Case ou encore le kebab-case en CSS, et dans les conventions de nommage par exemple en TypeScript mettre un &apos;I&apos; devant les noms utilisés pour les interfaces.
-                    </p>
-                    <p>
-                        1.6.3 / 1.6.4 : D’une certaine façon le fait de faire ces projets et de <LC lien={"/competences/github.png"}>partager certains d’entre eux sur Github</LC> construit mon identité professionnelle.
-                    </p>
-                </Accordeon>
-                <Accordeon titre={"Création d'une application de gestion de frais en cours"}>
-                    <p>
-                        Compétences mises en œuvre : 1.1.2 / 1.1.3 / 1.4.2 / 1.5.1
-                    </p>
-                    <p>
-                        1.1.2 : De la même manière que pour la section au dessus j’ai utilisé dans le projet des normes d’écriture
-                    </p>
-                    <p>
-                        1.1.3 : Dans le cadre du projet un nouveau compte sur PhpMyadmin a été créé, ce compte n’a accès qu’au strict minimum dans la base de données et c’est ce dernier qui est utiliser pour récupérer les données.
-                    </p>
-                    <p>
-                        1.4.2 : J’ai utilisé la platform Tuleap campus pour<LC lien={"/competences/tuleap.png"}> planifier, visualiser, répartir les tâches</LC> à faires.
-                    </p>
-                    <p>
-                        1.5.1 : Différents tests ont été effectués sur l’application pour trouver des bugs,
-                        j’ai aussi utilisé le <LC lien={"/competences/w3c.png"}>validateur de code HTML de la W3C</LC> comme on le voit sur l’image de l’interface de Tuleap de la compétence 1.4.2.
-                    </p>
-                </Accordeon>
-                <Accordeon titre={"Suivi d'un ticket GLPI"}>
-                    <p>
-                        Compétences mises en œuvre : 1.2.3 / 1.2.1
-                    </p>
-                    <p>
-                        1.2.1 / 1.2.3 : J’ai utilisé l’outil GLPI pour traiter une demande d’assistance applicative,
-                        un projet devais être mise en ligne mais comme on peux le voir il y a eu <LC lien={"/competences/glpi.png"}>quelques soucis</LC>.
                     </p>
                 </Accordeon>
             </Para>
