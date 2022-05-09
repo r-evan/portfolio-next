@@ -79,8 +79,8 @@ const FicheDeCompetences = () => {
                         Compétences mises en œuvre : 1.1.2 / 1.1.3 / 1.4.2 / 1.5.1
                     </p>
                     <p>
-                        1.1.2 : De la même manière que pour la section au dessus j’ai utilisé dans le projet des normes d’écriture, mais j'ai aussi
-                        utilisé l'architecture MVC <LC lien={"/competences/preuve-mvc.png"}> l'architecture MVC</LC>
+                        1.1.2 : De la même manière que pour la section au dessus j’ai utilisé dans le projet des normes d’écriture, mais j&apos;ai aussi
+                        utilisé l&apos;architecture MVC <LC lien={"/competences/preuve-mvc.png"}> l&apos;architecture MVC</LC>
                     </p>
                     <p>
                         1.1.3 : Dans le cadre du projet un nouveau compte sur PhpMyadmin a été créé, ce compte n’a accès qu’au strict minimum dans la base de données et c’est ce dernier qui est utiliser pour récupérer les données.
