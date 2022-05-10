@@ -54,7 +54,11 @@ const FicheDeCompetences = () => {
                 <h3>Activités réalisées pendant les deux années de BTS SIO</h3>
                 <Accordeon titre={"Mise en place d'une veille informationnelle"}>
                     <p>
-                        Compétences mises en œuvre : 1.6.1 / 1.6.2
+                        Compétences mises en œuvre :
+
+                        <li>1.6.1 : Mettre en place son environnement d&apos;apprentissage personnel </li>
+                        <li>1.6.2 : Mettre en oeuvre des outils et stratégie de veille informationnelle </li>
+
                     </p>
                     <p>
                         Comme on peut le voir dans l’onglet <Link href={"/veille-informationnelle"}>veille informationnelle</Link>, j’ai utilisé plusieurs outils pour faire ma veille ce qui valide les compétences 1.6.1 et 1.6.2.
@@ -64,11 +68,15 @@ const FicheDeCompetences = () => {
                 </Accordeon>
                 <Accordeon titre={"Création de projets pour apprendre différents FrameWork"}>
                     <p>
-                        Compétences mises en œuvre : 1.1.2 / 1.6.3 / 1.6.4
+                        Compétences mises en œuvre :
+                        <li>1.1.2 : Exploiter des référentiels, normes et stadards adoptés par le prestataire informatique </li>
+                        <li>1.6.3 : Gérer son identité professionnelle </li>
+                        <li>1.6.4 : Développer son projet professionnel </li>
+
                     </p>
                     <p>
                         1.1.2 : Naturellement quand je code je respect des <LC lien={"/competences/norme.png"}>normes d’écriture</LC> et des conventions de nommage, dans le normes d’écriture par exemple j’utilise le camel Case,
-                        le Pascal Case ou encore le kebab-case en CSS, et dans les conventions de nommage par exemple en TypeScript mettre un &apos;I&apos; devant les noms utilisés pour les interfaces.
+                        ou le Pascal Case, et dans les conventions de nommage par exemple en TypeScript mettre un &apos;I&apos; devant les noms de variables pour les interfaces.
                     </p>
                     <p>
                         1.6.3 / 1.6.4 : D’une certaine façon le fait de faire ces projets et de <LC lien={"/competences/github.png"}>partager certains d’entre eux sur Github</LC> construit mon identité professionnelle.
@@ -76,11 +84,15 @@ const FicheDeCompetences = () => {
                 </Accordeon>
                 <Accordeon titre={"Création d'une application de gestion de frais en cours"}>
                     <p>
-                        Compétences mises en œuvre : 1.1.2 / 1.1.3 / 1.4.2 / 1.5.1
+                        Compétences mises en œuvre :
+                        <li>1.1.2 : Exploiter des référentiels, normes et stadards adoptés par le prestataire informatique </li>
+                        <li>1.1.3 : Mettre en place et vérifier les niveaux d&apos;habilitation associés à un service </li>
+                        <li>1.4.2 : Planifier les activités </li>
+                        <li>1.5.1 : Réaliser les tests d&apos;intégration et d&apos;acceptation d&apos;un service </li>
                     </p>
                     <p>
                         1.1.2 : De la même manière que pour la section au dessus j’ai utilisé dans le projet des normes d’écriture, mais j&apos;ai aussi
-                        utilisé l&apos;architecture MVC <LC lien={"/competences/preuve-mvc.png"}> l&apos;architecture MVC</LC>
+                        utilisé une <LC lien={"/competences/preuve-mvc.png"}>architecture MVC</LC>
                     </p>
                     <p>
                         1.1.3 : Dans le cadre du projet un nouveau compte sur PhpMyadmin a été créé, ce compte n’a accès qu’au strict minimum dans la base de données et c’est ce dernier qui est utiliser pour récupérer les données.
@@ -95,7 +107,9 @@ const FicheDeCompetences = () => {
                 </Accordeon>
                 <Accordeon titre={"Suivi d'un ticket GLPI"}>
                     <p>
-                        Compétences mises en œuvre : 1.2.3 / 1.2.1
+                        Compétences mises en œuvre :
+                        <li>1.2.1 : Collecter, suivre et orienter des demandes</li>
+                        <li>1.2.3 : Traiter des demandes concernant les applications</li>
                     </p>
                     <p>
                         1.2.1 / 1.2.3 : J’ai utilisé l’outil GLPI pour traiter une demande d’assistance applicative,
@@ -107,7 +121,9 @@ const FicheDeCompetences = () => {
                 <h3>Activités faites durant le stage à l&apos;iut de quimper</h3>
                 <Accordeon titre={"Mettre à jour l'heure de tout les postes du domaine"} >
                     <p>
-                        Compétences mise en œuvre : 1.1.1 / 1.2.2
+                        Compétences mise en œuvre :
+                        <li>1.1.1 : Recenser et identifier les ressources numériques </li>
+                        <li>1.2.2 : Traiter des demandes concernant les services réseau et système, applicatifs</li>
                     </p>
                     <p>
                         Ma <LC lien={"/competences/note-de-synthese.pdf"}>note de synthèse</LC> portant
@@ -115,7 +131,13 @@ const FicheDeCompetences = () => {
                     </p>
                 </Accordeon>
                 <Accordeon titre={"Déploiement du service web Scodoc"}>
-                    <p>Compétences mises en œuvre : 1.1.3 / 1.2.2 / 1.5.2 / 1.5.3</p>
+                    <p>Compétences mises en œuvre : 
+                        <li>1.1.3 : Mettre en place et vérifier les niveaux d’habilitation associés à un service </li>
+                        <li>1.2.2 : Traiter des demandes concernant les services réseau et système, applicatifs</li>
+                        <li>1.5.2 : Déployer un service </li>
+                        <li>1.5.3 : Accompagner les utilisateurs dans la mise en place d’un service</li>
+                    </p>
+
                     <p>j’ai 2 éléments de preuve : l’image d’une <LC lien={"/competences/preuve-scodoc.png"}>conversation par mail</LC> sur laquelle on
                         voit mon tuteur de stage faisant un petit rapport de la situation. Et une
                         <LC lien={"/competences/preuve-scodoc2.png"}> image du service</LC> une fois en ligne
@@ -141,7 +163,17 @@ const FicheDeCompetences = () => {
                 <h3>Activités faites durant le stage chez Instants Botaniques</h3>
                 <Accordeon titre={"Création d'un site web WordPress / Woocommerce pour la marque"}>
                     <p>
-                        Compétences mises en œuvre : 1.1.2 / 1.1.3 / 1.1.5 / 1.2.3 / 1.3.1 / 1.3.2 / 1.3.3 / 1.4.2 / 1.5.2 / 1.5.3
+                        Compétences mises en œuvre : 
+                        <li>1.1.2 : Exploiter des référentiels, normes et standards adoptés par le prestataire informatique </li>
+                        <li>1.1.3 : Mettre en place et vérifier les niveaux d’habilitation associés à un service</li>
+                        <li>1.1.5 : Gérer des sauvegardes </li>
+                        <li>1.2.3 : Traiter des demandes concernant les applications</li>
+                        <li>1.3.1 : Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques </li>
+                        <li>1.3.2 : Référencer les services en ligne de l’organisation et mesurer leur visibilité.</li>
+                        <li>1.3.3 : Participer à l’évolution d’un site Web exploitant les données de l’organisation. </li>
+                        <li>1.4.2 : Planifier les activités</li>
+                        <li>1.5.2 : Déployer un service </li>
+                        <li>1.5.3 : Accompagner les utilisateurs dans la mise en place d’un service</li>
                     </p>
                     <p>
                         lien du site : <a href="https://instantsbotaniques.com/" rel="noreferrer" target="_blank">https://instantsbotaniques.com/</a>
@@ -167,7 +199,9 @@ const FicheDeCompetences = () => {
                 </Accordeon>
                 <Accordeon titre={"Sur Gmail envoyer et recevoir des mails crées avec une autre adresse mail Gandi"}>
                     <p>
-                        Compétences mises en œuvre : 1.2.2 / 1.5.3
+                        Compétences mises en œuvre :
+                        <li>1.2.2 : Traiter des demandes concernant les services réseau et système, applicatifs </li>
+                        <li>1.5.3 : Accompagner les utilisateurs dans la mise en place d’un service</li>
                     </p>
                     <p>
                         Ma tutrice de stage ne savait pas comment faire pour que dans Gmail elle et d’autres stagiaires puissent envoyer des mails avec une seconde adresse email professionnelle,
