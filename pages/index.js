@@ -30,24 +30,24 @@ const Home = () => {
           <div className={styles["bloc-titre"]}>
             <h2>Ce Portfolio est séparé en plusieurs catégories :</h2>
           </div>
-          <BlocNav lien={"/Stages"}>
+          <BlocNav lien={"/stages"}>
             <h3>Stages</h3>
             <p>Présente les différents stages que j’ai effectués</p>
           </BlocNav>
-          <BlocNav lien={"/Veille"}>
+          <BlocNav lien={"/veille-informationnelle"}>
             <h3>Veille informationnelle</h3>
             <p>Partage du condensé de mes veilles informationnelles.</p>
           </BlocNav>
-          <BlocNav lien={"/Etudes"}>
+          <BlocNav lien={"/etudes"}>
             <h3>Études</h3>
             <p>Présente plus en détails mon cursus scolaire cet à dire,
               expliquer les formations et quelques activités réalisées durant. </p>
           </BlocNav>
-          <BlocNav lien={"/Cv"}>
+          <BlocNav lien={"/cv"}>
             <h3>CV</h3>
             <p>Met en avant mon CV mais aussi certains projets réalisés en cours ou en autonomie.</p>
           </BlocNav>
-          <BlocNav lien={"/FicheDeCompetences"}>
+          <BlocNav lien={"/fiche-de-competence"}>
             <h3>Fiche de compétences</h3>
             <p>Montre la fiche de compétence du BTS SIO et les activités que j&apos;ai
               faites pour valider les compétences de cette dernière
