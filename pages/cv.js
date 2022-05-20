@@ -60,7 +60,7 @@ const Cv = () => {
                         <p>Lycée Chaptal</p>
                         <p>En cours de formation</p>
                         <p>Moyenne générale ~14</p>
-                        <p>Matière forte : dévelopment, math</p><br></br>
+                        <p>Matière forte : développement, math</p><br></br>
 
                         <p>BAC PRO SN (option RISC)</p>
                         <p>Lycée Yves Thépot</p>
@@ -75,6 +75,10 @@ const Cv = () => {
                     <div className={styles.block}>
                         <h3>PORTFOLIO</h3>
                         <a href="https://evan-portfolio.go.yj.fr/" rel="noreferrer" target="_blank">https://evan-portfolio.go.yj.fr/</a>
+                    </div>
+                    <div class="block">
+                        <h3>GITHUB</h3>
+                        <a href="https://github.com/r-evan" target="_blank">https://github.com/r-evan</a>
                     </div>
                 </aside>
                 <main className={styles.main}>
@@ -104,7 +108,7 @@ const Cv = () => {
                             <p className={styles['stage-titre']}>Stage au Service Informatique du Conseil Départemental</p>
                             <p className={styles['stage-date']}>Nov. 2019 – Dec. 2019 (1mois)</p>
                             <p><b>Tâches réalisées : </b>Assistance des techniciens dans le câblage des baies de brassage /
-                                locaux techniques / data center, administration des routeurs / switches du parc informatique.
+                                locaux techniques / data center, administration des routeurs / switchs du parc informatique.
                             </p>
                         </div>
                         <div className={styles.stage}>
