@@ -121,11 +121,11 @@ const Cv = () => {
                     </div>
                     <div className={styles.comp} ref={hiddenRef}>
                         <h3>COMPÉTENCES</h3>
-                        <Jauge titre={"HTML & CSS"} visible={visible} i={"1"} width={"88%"} />
-                        <Jauge titre={"JavaScript"} visible={visible} i={"2"} width={"70%"} />
+                        <Jauge titre={"HTML & CSS"} visible={visible} i={"1"} width={"83%"} />
+                        <Jauge titre={"JavaScript / React"} visible={visible} i={"2"} width={"75%"} />
                         <Jauge titre={"PHP & SQL"} visible={visible} i={"3"} width={"65%"} />
-                        <Jauge titre={"Wordpress"} visible={visible} i={"4"} width={"90%"} />
-                        <Jauge titre={"Java"} visible={visible} i={"5"} width={"80%"} />
+                        <Jauge titre={"Wordpress"} visible={visible} i={"4"} width={"85%"} />
+                        <Jauge titre={"Java"} visible={visible} i={"5"} width={"55%"} />
                     </div>
                 </main>
             </div>
