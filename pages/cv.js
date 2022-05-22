@@ -76,9 +76,9 @@ const Cv = () => {
                         <h3>PORTFOLIO</h3>
                         <a href="https://evan-portfolio.go.yj.fr/" rel="noreferrer" target="_blank">https://evan-portfolio.go.yj.fr/</a>
                     </div>
-                    <div class="block">
+                    <div className="block">
                         <h3>GITHUB</h3>
-                        <a href="https://github.com/r-evan" target="_blank">https://github.com/r-evan</a>
+                        <a href="https://github.com/r-evan" rel="noreferrer" target="_blank">https://github.com/r-evan</a>
                     </div>
                 </aside>
                 <main className={styles.main}>
