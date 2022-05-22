@@ -135,7 +135,7 @@ const Cv = () => {
                 <div className={styles.activites} >
                     <div className={styles['first-row']} >
                         <div className={styles['activite-texte1']}>
-                            <a href="https://r-evan.github.io/defi-1/" target="_blank" rel="noreferrer">https://r-evan.github.io/defi-1/</a>
+                            <a href="https://r-evan.github.io/Frontend-mentor-1/" target="_blank" rel="noreferrer">https://r-evan.github.io/Frontend-mentor-1/</a>
                             <p>Cette page est un challenge de Frontend mentor que j’ai réalisé, le principe de Frontend mentor est de proposer des
                                 challenges de différents niveaux, l’utilisateur en choisit un, récupère les différentes images et couleurs nécessaire à la
                                 réalisation du défi, puis code de façon à ce que le rendu soit le plus proche du design original.</p>
@@ -152,7 +152,7 @@ const Cv = () => {
                             <Image src="/defi2.png" alt="capture d'écran de mon 2nd projet github" layout="fill" className={styles.sioImage}  />
                         </div>
                         <div className={styles['activite-texte2']}>
-                            <a href="https://r-evan.github.io/defi-2/" target="_blank" rel="noreferrer">https://r-evan.github.io/defi-2/</a>
+                            <a href="https://r-evan.github.io/Frontend-mentor-2/" target="_blank" rel="noreferrer">https://r-evan.github.io/Frontend-mentot-2/</a>
                             <p>Cette page est aussi un challenge proposé par Frontend mentor, cette fois-ci l’aspect
                                 le plus important de la page est le css, il faut aussi réfléchir lors de la mise en
                                 place de l’HTML pour ne pas être gêné lors de la mise en place du responsive design.</p>
