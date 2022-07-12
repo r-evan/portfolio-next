@@ -62,7 +62,7 @@ const Cv = () => {
                         <h3>FORMATION</h3>
                         <p>BTS SIO (option SLAM)</p>
                         <p>Lycée Chaptal 2020 - 2022</p>
-                        <p>Diplôme obtenu (avec 14.31)</p><br>
+                        <p>Diplôme obtenu (avec 14.31)</p><br></br>
 
                         <p>BAC PRO SN (option RISC)</p>
                         <p>Lycée Yves Thépot</p>
