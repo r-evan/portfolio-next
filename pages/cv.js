@@ -53,18 +53,19 @@ const Cv = () => {
                             <ion-icon name="mail-outline"></ion-icon>
                             <p>evan.rioual@laposte.net</p>
                         </div>
+                        <div className={styles.icon}>
+                            <ion-icon name="car-outline"></ion-icon>
+                            <p>Permis B</p>
+                        </div>
                     </div>
                     <div className={`${styles.block} ${styles.form}`}>
                         <h3>FORMATION</h3>
-                        <p>BTS SIO(option SLAM)</p>
-                        <p>Lycée Chaptal</p>
-                        <p>En cours de formation</p>
-                        <p>Moyenne générale ~14</p>
-                        <p>Matière forte : développement, math</p><br></br>
+                        <p>BTS SIO (option SLAM)</p>
+                        <p>Lycée Chaptal 2020 - 2022</p>
+                        <p>Diplôme obtenu (avec 14.31)</p><br>
 
                         <p>BAC PRO SN (option RISC)</p>
                         <p>Lycée Yves Thépot</p>
-                        <p>2017 - 2020</p>
                         <p>Mention au bac : bien</p>
                     </div>
                     <div className={styles.block}>
@@ -83,9 +84,12 @@ const Cv = () => {
                 </aside>
                 <main className={styles.main}>
                     <div className={styles.profil}>
-                        <h3>PROFIL</h3>
-                        <p>Âgé de 19 ans, je suis d’un tempérament sérieux. De nature curieuse et appliquée,
-                            j’aime les sciences. Bon élève et compétiteur, je suis passionné par l’informatique.</p>
+                        <h3>CONCEPTEUR DÉVELOPPEUR D'APPLICATIONS, RECHERCHE D'ALTERNANCE</h3>
+                        <p>
+                            Âgé de 19 ans, de nature sérieuse et appliquée, je recherche une alternance de 2 ans
+                            pour la formation BAC+4 concepteur développeur d'applications de l'ENI, le rythme de
+                            l'alternance est de 1 à 3 semaines en cours et de 3 à 8 semaines en entreprise.
+                        </p>
                     </div>
                     <div className={styles.exp}>
                         <h3>EXPÉRIENCES PROFESSIONNELLES</h3>
