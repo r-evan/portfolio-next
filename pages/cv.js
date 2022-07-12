@@ -84,11 +84,11 @@ const Cv = () => {
                 </aside>
                 <main className={styles.main}>
                     <div className={styles.profil}>
-                        <h3>CONCEPTEUR DÉVELOPPEUR D'APPLICATIONS, RECHERCHE D'ALTERNANCE</h3>
+                        <h3>CONCEPTEUR DÉVELOPPEUR D&apos;APPLICATIONS, RECHERCHE D&apos;ALTERNANCE</h3>
                         <p>
                             Âgé de 19 ans, de nature sérieuse et appliquée, je recherche une alternance de 2 ans
-                            pour la formation BAC+4 concepteur développeur d'applications de l'ENI, le rythme de
-                            l'alternance est de 1 à 3 semaines en cours et de 3 à 8 semaines en entreprise.
+                            pour la formation BAC+4 concepteur développeur d&apos;applications de l&apos;ENI, le rythme de
+                            l&apos;alternance est de 1 à 3 semaines en cours et de 3 à 8 semaines en entreprise.
                         </p>
                     </div>
                     <div className={styles.exp}>
