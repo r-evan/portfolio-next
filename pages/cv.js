@@ -137,10 +137,52 @@ const Cv = () => {
                 <h3>Réalisations hors cadre scolaire</h3>
                 <p className={styles["sous-titre"]}>j’ai placé et détaillé les activités faites en cours dans l’onglet «études» de ce Portfolio</p>
                 <div className={styles.activites} >
+                <div className={styles['first-row']} >
+                        <div className={styles['activite-texte1']}>
+                            <a href="https://react-countries-api-one.vercel.app/" target="_blank" rel="noreferrer">https://react-countries-api-one.vercel.app/</a><br></br>
+                            <a href="https://github.com/r-evan/React-countries-API/tree/main/src" target="_blank" rel="noreferrer">https://github.com/r-evan/React-countries-API/tree/main/src</a>
+
+                            <p>Mon troisième challenge proposé par Frontend mentor, réalisé plus récemment en août 2022, ce challenge a une difficulté
+                                noté 4/5 (avanced), et en effet il y a plusieurs éléments qui rendent ce défi complexe à intégrer comme :</p>
+                            <p>Le système de navigation de l&apos;application qui est basé sur le résultat de l&apos;API,
+                                autrement dit, après avoir récupéré les données de l&apos;API, les informations vont s&apos;afficher
+                                sur la page, et pour chaque pays un lien va être créé vers une page générée dynamiquement servant à avoir
+                                plus d&apos;informations sur ce dernier</p>
+                            <p>La page d&apos;informations complémentaires affiche aussi les pays voisins, clicker sur l&apos;un
+                                 des pays voisins amène sur sa page d&apos;info, cette fonctionnalité a été la plus dure à mettre en place 
+                                car par rapport à la structure des données que retourne l&apos;API, j&apos;ai dû mettre en relation, coordonner plusieurs 
+                                informations se trouvant à des emplacements différents (la difficulté est donc plutôt sur le plan logique)</p>
+                            <p>Un mode sombre et un système de filtrage son également implémenté.</p>
+                            <p>Pour conclure, le choix de la technologie utilisé à eux un impact majeur, sans l&apos;aide de React js, je pense que le 
+                                projet aurait été bien plus difficile encore.
+                            </p>
+
+                        </div>
+                        <div className={styles['activite-img1']}>
+                            <Image src={"/defi3.png"} alt="capture d'écran de mon 3eme projet github" layout="fill" className={styles.sioImage} />
+                        </div>
+                    </div>
+                    
+                    <div className={styles['second-row']} >
+                        <div className={styles['activite-img2']}>
+                            <Image src="/defi2.png" alt="capture d'écran de mon 2nd projet github" layout="fill" className={styles.sioImage} />
+                        </div>
+                        <div className={styles['activite-texte2']}>
+                            <a href="https://r-evan.github.io/Frontend-mentor-2/" target="_blank" rel="noreferrer">https://r-evan.github.io/Frontend-mentot-2/</a>
+                            <p>Cette page est le second challenge de Frontend mentor que j&apos;ai fait (difficulté 2/5), cette fois-ci l’aspect
+                                le plus important de la page est le css, il faut aussi réfléchir lors de la mise en
+                                place de l’HTML pour ne pas être gêné lors de la mise en place du responsive design.</p>
+                            <p>Le menu de navigation sur mobile utilise un peu de javascript, pour qu&apos;il s&apos;afficher en appuyant sur le bouton
+                                et pour le cacher si la taille de l’écran repasse au-dessus d&apos;une certaine taille.</p>
+                            <p>De même sur les grands écrans j&apos;ai utilisé du javascript pour scinder la page en 2 parties déplaçables,
+                                pas vraiment par but esthétique mais plutôt parce que coder cette fonctionnalité m&apos;intéresser.
+                            </p>
+                        </div>
+                    </div>
                     <div className={styles['first-row']} >
                         <div className={styles['activite-texte1']}>
                             <a href="https://r-evan.github.io/Frentend-mentor-1/" target="_blank" rel="noreferrer">https://r-evan.github.io/Frontend-mentor-1/</a>
-                            <p>Cette page est un challenge de Frontend mentor que j’ai réalisé, le principe de Frontend mentor est de proposer des
+                            <p>Cette page est le premier challenge de Frontend mentor que j’ai réalisé (difficulté 2/5), le principe de Frontend mentor est de proposer des
                                 challenges de différents niveaux, l’utilisateur en choisit un, récupère les différentes images et couleurs nécessaire à la
                                 réalisation du défi, puis code de façon à ce que le rendu soit le plus proche du design original.</p>
                             <p>La difficulté de ce challenge se trouve principalement dans la bar pour choisir le prix de l’abonnement : le prix
@@ -151,22 +193,7 @@ const Cv = () => {
                             <Image src={"/defi1.png"} alt="capture d'écran de mon 1er projet github" layout="fill" className={styles.sioImage} />
                         </div>
                     </div>
-                    <div className={styles['second-row']} >
-                        <div className={styles['activite-img2']}>
-                            <Image src="/defi2.png" alt="capture d'écran de mon 2nd projet github" layout="fill" className={styles.sioImage}  />
-                        </div>
-                        <div className={styles['activite-texte2']}>
-                            <a href="https://r-evan.github.io/Frontend-mentor-2/" target="_blank" rel="noreferrer">https://r-evan.github.io/Frontend-mentot-2/</a>
-                            <p>Cette page est aussi un challenge proposé par Frontend mentor, cette fois-ci l’aspect
-                                le plus important de la page est le css, il faut aussi réfléchir lors de la mise en
-                                place de l’HTML pour ne pas être gêné lors de la mise en place du responsive design.</p>
-                            <p>Le menu de navigation sur mobile utilise un peu de javascript pour l&apos;afficher en appuyant sur le bouton
-                                et pour cacher le menu si la taille de l’écran repasse au-dessus d’une certaine taille.</p>
-                            <p>De même sur les grands écrans j’ai utilisé du javascript pour scinder la page en 2 parties déplaçables,
-                                pas vraiment par but esthétique mais plutôt parce que coder cette fonctionnalité m&apos;intéresser.
-                            </p>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
             <Script strategy="beforeInteractive" type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
@@ -179,3 +206,4 @@ const Cv = () => {
 
 
 export default Cv;
+
