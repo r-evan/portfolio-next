@@ -11,7 +11,7 @@ const Nav = ({ handleClickOut }) => {
                 <Link href="/etudes"><a onClick={handleClickOut}>Études</a></Link>
             </li>
             <li>
-                <Link href="/cv"><a onClick={handleClickOut}>CV</a></Link>
+                <Link href="/cv"><a onClick={handleClickOut}>CV & Réalisations</a></Link>
             </li>
             <li>
                 <Link href="/stages"><a onClick={handleClickOut}>Stages</a></Link>
