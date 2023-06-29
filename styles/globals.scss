@@ -40,7 +40,7 @@ body::-webkit-scrollbar {
 }
 .page {
   -webkit-backdrop-filter: blur(120px);
-  backdrop-filter: blur(120px);
+  backdrop-filter: blur(140px);
 }
 .container::-webkit-scrollbar {
   display: none;
@@ -98,7 +98,7 @@ $amount: 7;
   z-index: -1;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  $colors: (#1a2035, #27151a, #201420, #2c2b2b, #1b2135, #221317, #161b2b);
+  $colors: (#333d62, #5b323e, #573757, #414d74, #3e222a, #272f48, #3d3a3a);
   @for $i from 1 through $amount {
     &:nth-child(#{$i}) {
       color: nth($colors, $i);

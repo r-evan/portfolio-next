@@ -21,7 +21,7 @@ const Stages = () => {
                     <span></span>
                     <span></span>
                     <span></span>
-                    <h1>Mes Stages</h1>
+                    <h2>Mes Stages</h2>
                 </div>
             </div>
             <div className={styles.paras}>

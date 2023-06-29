@@ -23,7 +23,7 @@ const FicheDeCompetences = () => {
                     <span></span>
                     <span></span>
                     <span></span>
-                    <h1>Fiche de compétences</h1>
+                    <h2>Fiche de compétences</h2>
                 </div>
             </div>
             <Para>

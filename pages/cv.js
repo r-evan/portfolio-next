@@ -29,7 +29,7 @@ const Cv = () => {
                     <span></span>
                     <span></span>
                     <span></span>
-                    <h1>CV & Réalisation</h1>
+                    <h1>CV & Travaux</h1>
                 </div>
             </section>
 
@@ -73,26 +73,44 @@ const Cv = () => {
                         <p>Anglais : Niveau B2</p>
                         <p>Français</p>
                     </div>
+
                     <div className={styles.block}>
-                        <h3>PORTFOLIO</h3>
-                        <a href="https://evan-portfolio.go.yj.fr/" rel="noreferrer" target="_blank">https://evan-portfolio.go.yj.fr/</a>
-                    </div>
-                    <div className="block">
                         <h3>GITHUB</h3>
                         <a href="https://github.com/r-evan" rel="noreferrer" target="_blank">https://github.com/r-evan</a>
+                    </div>
+                    <div className={styles.block}>
+                        <h3>PASSIONS</h3>
+                        <div className={styles.passions}>
+                            <div className={styles.muscuContainer}>
+                                <Image src={"/muscu.png"} alt="test" layout="fill" />
+                            </div>
+                            <div className={styles.hackerContainer}>
+                                <Image src={"/hacker.png"} alt="test" layout="fill" className={styles.hacker} />
+                            </div>
+                            <div className={styles.pianoContainer}>
+                                <Image src={"/piano.png"} alt="test" layout="fill" className={styles.piano} />
+                            </div>
+                        </div>
+
                     </div>
                 </aside>
                 <main className={styles.main}>
                     <div className={styles.profil}>
                         <h3>CONCEPTEUR DÉVELOPPEUR D&apos;APPLICATIONS, RECHERCHE D&apos;ALTERNANCE</h3>
                         <p>
-                            Âgé de 20 ans, de nature sérieuse et appliquée, je recherche une alternance de 2 ans
-                            pour la formation BAC+4 concepteur développeur d&apos;applications de l&apos;ENI, le rythme de
-                            l&apos;alternance est de 1 à 3 semaines en cours et de 3 à 8 semaines en entreprise.
+                            Actuellement en formation à l&apos;ENI, je recherche une alternance de 1 an
+                            pour continuer ma formation BAC+4 concepteur développeur d'applications, le rythme de
+                            l&apos;alternance est 2 semaines en cours suivi d'un 1 mois en entreprise.
                         </p>
                     </div>
                     <div className={styles.exp}>
                         <h3>EXPÉRIENCES PROFESSIONNELLES</h3>
+                        <div className={styles.stage}>
+                            <p className={styles['stage-titre']}>Alternance au service informatique d'Océalliance</p>
+                            <p className={styles['stage-date']}>Depuis Déc 2022 (7 mois)</p>
+                            <p><b>Tâche réalisée : </b>Conception d'outils de gestion en Windev, tel que la modification des utilisateurs ou
+                                la gestion des bons de livraison, développement d'un service pour traiter certains mails.</p>
+                        </div>
                         <div className={styles.stage}>
                             <p className={styles['stage-titre']}>Stage dans l&apos;entreprise Instants Botaniques</p>
                             <p className={styles['stage-date']}>Déc 2021 - Janv 2022 (7 semaines)</p>
@@ -115,21 +133,23 @@ const Cv = () => {
                                 locaux techniques / data center, administration des routeurs / switchs du parc informatique.
                             </p>
                         </div>
-                        <div className={styles.stage}>
+                        {/* <div className={styles.stage}>
                             <p className={styles['stage-titre']}>Stage dans la DSI de la mairie de Quimper</p>
                             <p className={styles['stage-date']}>Juin 2019 - Juillet 2019 (1mois)</p>
                             <p><b>Tâches réalisées : </b>Assistance des techniciens du service dans la gestion du matériel
                                 informatique, assistance d’utilisateurs pour des problèmes de logiciels ou de pannes le plus
                                 souvent.</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className={styles.comp} ref={hiddenRef}>
                         <h3>COMPÉTENCES</h3>
-                        <Jauge titre={"HTML & CSS"} visible={visible} i={"1"} width={"83%"} />
-                        <Jauge titre={"JavaScript / React"} visible={visible} i={"2"} width={"75%"} />
-                        <Jauge titre={"PHP & SQL"} visible={visible} i={"3"} width={"65%"} />
-                        <Jauge titre={"Wordpress"} visible={visible} i={"4"} width={"85%"} />
-                        <Jauge titre={"Java"} visible={visible} i={"5"} width={"55%"} />
+                        <Jauge titre={"HTML / CSS"} visible={visible} i={"1"} width={"83%"} />
+                        <Jauge titre={"JavaScript / React"} visible={visible} i={"2"} width={"70%"} />
+                        <Jauge titre={"Wordpress"} visible={visible} i={"4"} width={"75%"} />
+                        <Jauge titre={"PHP / SQL"} visible={visible} i={"3"} width={"60%"} />
+                        <Jauge titre={"Java / Java EE"} visible={visible} i={"5"} width={"65%"} />
+                        <Jauge titre={"Windev"} visible={visible} i={"6"} width={"75%"} />
+
                     </div>
                 </main>
             </div>
@@ -137,23 +157,39 @@ const Cv = () => {
                 <h3>Réalisations hors cadre scolaire</h3>
                 <p className={styles["sous-titre"]}>j’ai placé et détaillé les activités faites en cours dans l’onglet «études» de ce Portfolio</p>
                 <div className={styles.activites} >
-                <div className={styles['first-row']} >
+                <div className={styles['second-row']} >
+                        <div className={styles['activite-img2']}>
+                            <Image src="/Multi-step-preview.png" alt="capture de mon dernier projet" layout="fill" className={styles.sioImage} />
+                        </div>
+                        <div className={styles['activite-texte2']}>
+                            <a href="https://r-evan.github.io/Frontend-mentor-2/" target="_blank" rel="noreferrer">https://github.com/r-evan/Multo-Step-Form</a>
+                            <p>Défi proposé par frontend mentor, réalisé en juin 2023, Le challenge à une difficulté noté 4/5 et effectivement comme pour le projet précédent 
+                                à de nombreux points sans une bonne analyse de la maquette, que ce soit au niveau du design ou au niveau de la logic du formulaire, du temps 
+                                peux vite être perdu...</p>
+                            <p>Par exemple j'ai passé 2h à essayer de rendre cohérente ma barre de navigation, car : le contenu de la barre varie selon l'avancée dans le formulaire,
+                                mon bouton doit appeler une fonction qui vérifié les données à la première étape et pour finir ma barre se situe à un endroit différent sur mobile. </p>
+                            <p>En définitive à part quelques soucis, la réalisation du projet c'est bien passé, encore une fois l'utilisation de React à grandement aidé à l'avancement
+                                du projet. </p>
+                        </div>
+                    </div>
+
+                    <div className={styles['first-row']}>
                         <div className={styles['activite-texte1']}>
                             <a href="https://react-countries-api-one.vercel.app/" target="_blank" rel="noreferrer">https://react-countries-api-one.vercel.app/</a><br></br>
                             <a href="https://github.com/r-evan/React-countries-API/tree/main/src" target="_blank" rel="noreferrer">https://github.com/r-evan/React-countries-API/tree/main/src</a>
 
-                            <p>Mon troisième challenge proposé par Frontend mentor, réalisé plus récemment en août 2022, ce challenge a une difficulté
+                            <p>Mon troisième challenge proposé par Frontend mentor, réalisé en août 2022, ce challenge a une difficulté
                                 noté 4/5 (avanced), et en effet il y a plusieurs éléments qui rendent ce défi complexe à intégrer comme :</p>
                             <p>Le système de navigation de l&apos;application qui est basé sur le résultat de l&apos;API,
-                                autrement dit, après avoir récupéré les données de l&apos;API, les informations vont s&apos;afficher
+                                autrement dit, après avoir récupéré les données de l&apos;API, les informations s&apos;affichent
                                 sur la page, et pour chaque pays un lien va être créé vers une page générée dynamiquement servant à avoir
                                 plus d&apos;informations sur ce dernier</p>
                             <p>La page d&apos;informations complémentaires affiche aussi les pays voisins, clicker sur l&apos;un
-                                 des pays voisins amène sur sa page d&apos;info, cette fonctionnalité a été la plus dure à mettre en place 
-                                car par rapport à la structure des données que retourne l&apos;API, j&apos;ai dû mettre en relation, coordonner plusieurs 
+                                des pays voisins amène sur sa page d&apos;info, cette fonctionnalité a été la plus dure à mettre en place
+                                car par rapport à la structure des données que retourne l&apos;API, j&apos;ai dû mettre en relation, coordonner plusieurs
                                 informations se trouvant à des emplacements différents (la difficulté est donc plutôt sur le plan logique)</p>
                             <p>Un mode sombre et un système de filtrage son également implémenté.</p>
-                            <p>Pour conclure, le choix de la technologie utilisé à eux un impact majeur, sans l&apos;aide de React js, je pense que le 
+                            <p>Pour conclure, le choix de la technologie utilisé à eux un impact majeur, sans l&apos;aide de React js, je pense que le
                                 projet aurait été bien plus difficile encore.
                             </p>
 
@@ -162,7 +198,7 @@ const Cv = () => {
                             <Image src={"/defi3.png"} alt="capture d'écran de mon 3eme projet github" layout="fill" className={styles.sioImage} />
                         </div>
                     </div>
-                    
+
                     <div className={styles['second-row']} >
                         <div className={styles['activite-img2']}>
                             <Image src="/defi2.png" alt="capture d'écran de mon 2nd projet github" layout="fill" className={styles.sioImage} />
@@ -193,7 +229,7 @@ const Cv = () => {
                             <Image src={"/defi1.png"} alt="capture d'écran de mon 1er projet github" layout="fill" className={styles.sioImage} />
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             <Script strategy="beforeInteractive" type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>

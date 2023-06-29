@@ -17,7 +17,7 @@ const Veille = () => {
                     <span></span>
                     <span></span>
                     <span></span>
-                    <h1>Veille informatique</h1>
+                    <h2>Veille informatique</h2>
                 </div>
             </div>
             <div className={styles["para"]} >

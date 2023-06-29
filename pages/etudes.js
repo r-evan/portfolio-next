@@ -22,15 +22,48 @@ const Etudes = () => {
                     <span></span>
                     <span></span>
                     <span></span>
-                    <h1>Mes Études</h1>
+                    <h2>Mes Études</h2>
                 </div>
+            </div>
+            <div className={styles["double-section"]} >
+                <section>
+                    <h2>Alternance CDA à l'ENI</h2>
+                    <p>
+                        Je suis actuellement en alternance à l'ENI dans leur formation niveau BAC + 4 
+                        concepteur développeur d'applications(CDA), le tout à Quimper.
+                    </p><br></br>
+                    <p>
+                        Cette formation était pour moi la suite logique de mon BTS SIO, à par l'ENI j'aurais pû m'orienter vers une licence CDA à Brest
+                        mais l'expérience potentielle gagner grace à l'entreprise à déterminer mon choix.
+                    </p><br />
+                    <p>
+                        L'entreprise dans laquelle j'effectue mon alternance est Océalliance, le groupe est leader français et européen du mareyage. 
+                        Au sein de cette dernière je développe principalement des outils de gestion en Windev.
+                    </p>
+                </section>
+                <section>
+                    <p>
+                        Pour le moment j'ai vu en cours :
+                    </p><br />
+                    <p>
+                        <ul>
+                            <li> - Le langage de requête SQL avec SQL Server</li>
+                            <li> - Les procédures stockées avec PL/SQL</li>
+                            <li> - La Programmation Orientée Objet (POO) avec Java</li>
+                            <li> - Le développement en couches et la persistance des données avec Java SE</li>
+                            <li> - Le développement Web côté serveur – BackEnd avec Java Entreprise Edition (JEE)</li>
+                            <li> - Projet – Développement d’une application avec Java EE</li>
+                        </ul>
+
+                    </p>
+                   
+                </section>
             </div>
             <div className={styles["double-section"]} >
                 <section>
                     <h2>BTS SIO</h2>
                     <p>
-                        Je suis actuellement étudiant en seconde année du
-                        BTS SIO (Services Informatiques aux Organisations), spécialité
+                        J'ai de 2020 à 2022 fais un BTS SIO (Services Informatiques aux Organisations), spécialité
                         SLAM (Solutions Logicielles et Applications Métier) au sein du Lycée Chaptal.
                     </p><br></br>
                     <p>

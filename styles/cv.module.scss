@@ -63,7 +63,7 @@
 }
 .cv .main p {
     color: black;
-}
+}   
 
 /* Début de la partie aside */
 .aside {
@@ -95,6 +95,29 @@
 .block {
     margin-bottom: 25px;
 }
+.passions{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.muscuContainer, .pianoContainer, .hackerContainer {
+    width: 50px !important;
+    height: 50px !important;
+    filter: invert(1);
+    transform: translateX(0);
+
+   
+}
+
+// .piano, .muscu, .hacker{
+//     -o-object-fit: contain;
+//     object-fit: contain;
+//     width: 100% !important;
+//     position: relative !important;
+//     height: 100% !important;
+// }
+
 .icon {
     display: flex;
     align-items: center;

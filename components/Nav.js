@@ -11,7 +11,7 @@ const Nav = () => {
                 <Link href="/etudes">Études</Link>
             </li>
             <li>
-                <Link href="/cv">CV & Réalisations</Link>
+                <Link href="/cv">CV & Travaux</Link>
             </li>
             <li>
                 <Link href="/stages">Stages</Link>
