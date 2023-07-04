@@ -162,7 +162,7 @@ const Cv = () => {
                             <Image src="/Multi-step-preview.png" alt="capture de mon dernier projet" layout="fill" className={styles.sioImage} />
                         </div>
                         <div className={styles['activite-texte2']}>
-                            <a href="https://r-evan.github.io/Frontend-mentor-2/" target="_blank" rel="noreferrer">https://github.com/r-evan/Multo-Step-Form</a>
+                            <a href="https://multo-step-form-evan-rioual.vercel.app/" target="_blank" rel="noreferrer">https://github.com/r-evan/Multo-Step-Form</a>
                             <p>Défi proposé par frontend mentor, réalisé en juin 2023, Le challenge à une difficulté noté 4/5 et effectivement comme pour le projet précédent 
                                 à de nombreux points sans une bonne analyse de la maquette, que ce soit au niveau du design ou au niveau de la logic du formulaire, du temps 
                                 peux vite être perdu...</p>
