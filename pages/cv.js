@@ -164,11 +164,11 @@ const Cv = () => {
                         <div className={styles['activite-texte2']}>
                             <a href="https://multo-step-form-evan-rioual.vercel.app/" target="_blank" rel="noreferrer">https://github.com/r-evan/Multo-Step-Form</a>
                             <p>Défi proposé par frontend mentor, réalisé en juin 2023, Le challenge à une difficulté noté 4/5 et effectivement comme pour le projet précédent 
-                                à de nombreux points sans une bonne analyse de la maquette, que ce soit au niveau du design ou au niveau de la logic du formulaire, du temps 
-                                peux vite être perdu...</p>
-                            <p>Par exemple j'ai passé 2h à essayer de rendre cohérente ma barre de navigation, car : le contenu de la barre varie selon l'avancée dans le formulaire,
-                                mon bouton doit appeler une fonction qui vérifié les données à la première étape et pour finir ma barre se situe à un endroit différent sur mobile. </p>
-                            <p>En définitive à part quelques soucis, la réalisation du projet c'est bien passé, encore une fois l'utilisation de React à grandement aidé à l'avancement
+                                à de nombreux points sans une bonne analyse de la maquette, que ce soit au niveau du design ou au niveau de la logique du formulaire, du temps 
+                                peut vite être perdu...</p>
+                            <p>Par exemple, j'ai passé 2h à essayer de rendre cohérente ma barre de navigation, car le contenu de la barre varie selon l'avancée dans le formulaire,
+                                mon bouton doit appeler une fonction qui vérifie les données à la première étape et pour finir la barre se situe à un endroit différent sur mobile. </p>
+                            <p>En définitive, à part quelques soucis, la réalisation du projet s'est bien passé, encore une fois l'utilisation de React à grandement aidé à l'avancement
                                 du projet. </p>
                         </div>
                     </div>
