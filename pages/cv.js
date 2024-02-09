@@ -251,26 +251,40 @@ const Cv = () => {
               />
             </div>
             <div className={styles["activite-texte2"]}>
-              <a
-                href="https://multo-step-form-evan-rioual.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://github.com/r-evan/Multo-Step-Form
-              </a>
               <p>
-                Défi proposé par frontend mentor, réalisé en juin 2023, Le
-                challenge à une difficulté noté 4/5 et effectivement comme pour
-                le projet précédent à de nombreux points sans une bonne analyse
-                de la maquette, que ce soit au niveau du design ou au niveau de
-                la logique du formulaire, du temps peut vite être perdu...
+                Code :
+                <a
+                  href="https://github.com/r-evan/Multi-Step-Form"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  https://github.com/r-evan/Multi-Step-Form
+                </a>
+              </p>
+              <p>
+                Preview :
+                <a
+                  href="https://multo-step-form-evan-rioual.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  https://multi-step-form-evan-rioual.vercel.app/
+                </a>
+              </p>
+
+              <p>
+                Défi proposé par frontend mentor, réalisé en juin 2023, le
+                challenge à une difficulté noté 4/5, tout comme pour le projet
+                précédent, sans une bonne analyse de la maquette, que ce soit au
+                niveau du design ou au niveau de la logique du formulaire, du
+                temps peut vite être perdu...
               </p>
               <p>
                 Par exemple, j'ai passé 2h à essayer de rendre cohérente ma
-                barre de navigation, car le contenu de la barre varie selon
-                l'avancée dans le formulaire, mon bouton doit appeler une
-                fonction qui vérifie les données à la première étape et pour
-                finir la barre se situe à un endroit différent sur mobile.{" "}
+                barre de navigation, car son contenu évolue selon l'avancée dans
+                le formulaire, mon bouton "suivant" appelle une fonction qui
+                vérifie les données à la première étape et pour finir la barre
+                se situe à un endroit différent sur mobile.{" "}
               </p>
               <p>
                 En définitive, à part quelques soucis, la réalisation du projet
@@ -282,22 +296,26 @@ const Cv = () => {
 
           <div className={styles["first-row"]}>
             <div className={styles["activite-texte1"]}>
-              <a
-                href="https://react-countries-api-one.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://react-countries-api-one.vercel.app/
-              </a>
-              <br></br>
-              <a
-                href="https://github.com/r-evan/React-countries-API/tree/main/src"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://github.com/r-evan/React-countries-API/tree/main/src
-              </a>
-
+              <p>
+                Preview :
+                <a
+                  href="https://react-countries-api-one.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  https://react-countries-api-one.vercel.app/
+                </a>
+              </p>
+              <p>
+                Code :
+                <a
+                  href="https://github.com/r-evan/React-countries-API/tree/main/src"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  https://github.com/r-evan/React-countries-API/tree/main/src
+                </a>
+              </p>
               <p>
                 Mon troisième challenge proposé par Frontend mentor, réalisé en
                 août 2022, ce challenge a une difficulté noté 4/5 (avanced), et
@@ -367,9 +385,7 @@ const Cv = () => {
               </p>
               <p>
                 Le menu de navigation sur mobile utilise un peu de javascript,
-                pour qu&apos;il s&apos;afficher en appuyant sur le bouton et
-                pour le cacher si la taille de l’écran repasse au-dessus
-                d&apos;une certaine taille.
+                pour que le bouton s'affiche selon la taille de l'écran.
               </p>
               <p>
                 De même sur les grands écrans j&apos;ai utilisé du javascript
@@ -393,12 +409,12 @@ const Cv = () => {
                 réalisé (difficulté 2/5), le principe de Frontend mentor est de
                 proposer des challenges de différents niveaux, l’utilisateur en
                 choisit un, récupère les différentes images et couleurs
-                nécessaire à la réalisation du défi, puis code de façon à ce que
-                le rendu soit le plus proche du design original.
+                nécessaires à la réalisation du défi, puis code de façon à ce
+                que le rendu soit le plus proche du design original.
               </p>
               <p>
                 La difficulté de ce challenge se trouve principalement dans la
-                bar pour choisir le prix de l’abonnement : le prix doit être
+                barre pour choisir le prix de l’abonnement : le prix doit être
                 affiché, doit s’ajuster en cas de changement, et doit prendre en
                 compte les 25% de réduction si le bouton en dessous est coché.
               </p>

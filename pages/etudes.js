@@ -29,7 +29,7 @@ const Etudes = () => {
           <h2>Alternance CDA à l'ENI</h2>
           <p>
             Je suis actuellement en alternance à l'ENI dans leur formation
-            niveau BAC + 4 concepteur développeur d'applications(CDA), l'école
+            niveau BAC + 4 concepteurs développeurs d'applications(CDA), l'école
             est à Quimper
           </p>
           <br></br>
@@ -42,7 +42,7 @@ const Etudes = () => {
           <p>
             L'entreprise dans laquelle j'effectue mon alternance est CGI, le
             groupe est leader mondial du conseil et des services numériques. Au
-            sein de cette dernière je traite pour le moments des incidents sur
+            sein de cette dernière je traite pour le moment des incidents sur
             l'ERP, avec les outils SQL développeur, Talend, APEX et Putty.
           </p>
         </section>
@@ -76,9 +76,9 @@ const Etudes = () => {
       </div>
       <div className={styles["double-section"]}>
         <section>
-          <h2>BTS SIO</h2>
+          <h2>BTS SIO (SLAM)</h2>
           <p>
-            J'ai de 2020 à 2022 fais un BTS SIO (Services Informatiques aux
+            J'ai de 2020 à 2022 fait un BTS SIO (Services Informatiques aux
             Organisations), spécialité SLAM (Solutions Logicielles et
             Applications Métier) au sein du Lycée Chaptal.
           </p>
@@ -93,9 +93,9 @@ const Etudes = () => {
         </section>
         <section>
           <p>
-            Le Brevet de Technicien Supérieur Services Informatiques aux
+            Le brevet de Technicien Supérieur Services Informatiques aux
             Organisations, s’adresse à ceux qui souhaitent se former en deux ans
-            aux métiers d’administrateur réseau ou de développeur. Elle propose
+            au métier d’administrateur réseau ou de développeur. Elle propose
             deux spécialités:
           </p>
           <br></br>
@@ -120,11 +120,11 @@ const Etudes = () => {
         </p>
         <section className={styles.row1}>
           <p>
-            Création de divers scripts linux en bash, l’image ci-contre montre
+            Création de divers scripts Linux en bash, l’image ci-contre montre
             quelques lignes de code d’un script servant à : créer des
             répertoires, mettre des droits d’accès sur les répertoires, créer
             des groupes et des utilisateurs s’ils n’existent pas, donner les
-            groupes qui correspond aux utilisateurs et répertoires, Tout cela
+            groupes qui correspondent aux utilisateurs et répertoires, tout cela
             pour que les nouveaux utilisateurs ne puissent accéder qu’aux
             répertoires autorisés.
           </p>
@@ -141,10 +141,10 @@ const Etudes = () => {
           <p>
             Création de 2 sites web, le premier dans le contexte d’une agence de
             randonnée en kayak: utilisation d’une base de données SQL pour créer
-            un système de création de compte, d’authentification et de
-            déconnection. les utilisateurs connectés peuvent accéder à un
+            un système de création du compte, d’authentification et de
+            déconnexion. les utilisateurs connectés peuvent accéder à un
             catalogue de kayak. lors de la création du compte le mot de passe
-            n’est pas envoyés « en claire » dans la base de données, il est
+            n’est pas envoyé « en clair » dans la base de données, il est
             d’abord hashé.
           </p>
           <div className={styles["image-container"]}>
@@ -176,10 +176,10 @@ const Etudes = () => {
       </Section>
       <div className={styles["double-section"]}>
         <section>
-          <h2>BAC PRO SN</h2>
+          <h2>BAC PRO SN (RISC)</h2>
           <p>
-            J’ai choisi ce bac pro car à l’époque je n’avais pas l’ambition que
-            j’ai aujourd’hui, mais je savais tout de même ce que je ne voulais
+            J’ai choisi cette formation car je n’avais pas à l’époque les
+            ambitions d'aujourd’hui, je savais tout de même ce que je ne voulais
             pas faire, c’est pour cette raison que je me suis orienté vers ce
             bac.
           </p>
