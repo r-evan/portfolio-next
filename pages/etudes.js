@@ -98,7 +98,7 @@ const Etudes = () => {
               
               <Image
                 alt="Gitlab gestion des issues"
-                src="/gitlab-issues.png"
+                src="/gitlab-issues1.png"
                 width={1074}
                 height={185}
                 layout="responsive"
@@ -117,7 +117,7 @@ const Etudes = () => {
               <div className={styles["image-container"]}>
                   <Image
                     alt="Image du site en tant qu'administrateur"
-                    src="/site-admin.png"
+                    src="/site-admin1.png"
                     layout="fill"
                     
                     className={styles["eni-image"]}
