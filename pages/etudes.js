@@ -74,6 +74,73 @@ const Etudes = () => {
           </p>
         </section>
       </div>
+      <Section>
+        <div className={styles["eni"]}> 
+
+        <h2>Projets réalisés à l'ENI</h2>
+        <p className={styles["sous-titre"]}>
+          Durant les deux années de formation, j'ai réalisé trois projets dans le cadre des cours, chacun s'étendant sur une période de deux semaines.        
+        </p>
+        <section >
+          <div>
+          <h3>Projet sortie : </h3>
+            <p>
+              En décembre 2023, j'ai collaboré avec trois autres étudiants de l'ENI sur un projet de deux semaines. 
+              Notre évaluation s'est davantage concentrée sur la gestion de projet et l'organisation du code que sur les 
+              fonctionnalités mises en œuvre sur le site créé. 
+              L'utilisation de Symfony comme technologie de développement 
+              était la seule contrainte imposée. Nous avons choisi d'utiliser Trello et GitLab pour la répartition des tâches, 
+              la gestion du code, et dans une moindre mesure, la révision du code. 
+              Trello est un outil en ligne gratuit qui facilite l'organisation des tâches de manière simple et 
+              intuitive sur un tableau. GitLab, au-delà de la gestion de versions cruciale à tout projet, 
+              nous a permis d'expérimenter avec les "issues" pour une meilleure gestion des branches.
+            </p><br/>
+              
+              <Image
+                alt="Gitlab gestion des issues"
+                src="/gitlab-issues.png"
+                width={1074}
+                height={185}
+                layout="responsive"
+              /><br/>
+              <p>
+                Le cahier des charges du projet était assez conséquent. En restant consis, 
+                le site devait permettre la création d'événements ("sorties"), 
+                auxquels les utilisateurs inscrits pouvaient participer. 
+                Ces sorties pouvaient avoir plusieurs états (créé, publié, en cours, archivé, annulé, etc.), 
+                impliquant la gestion de lieux, d'établissements scolaires ("sites"), entre autres. 
+                Une gestion des droits d'accès spécifique a également était mise en place, 
+                réservant par exemple la gestion des "sites" et des droits des membres aux administrateurs, 
+                tandis que les utilisateurs pouvaient s'inscrire, créer et gérer leurs propres sorties.
+              </p>
+
+              <div className={styles["image-container"]}>
+                  <Image
+                    alt="Image du site en tant qu'administrateur"
+                    src="/site-admin.png"
+                    layout="fill"
+                    
+                    className={styles["eni-image"]}
+                  />
+              </div>
+
+              <p>
+                Sur le plan du développement, j'ai consacré l'essentiel de mon temps à la gestion des sorties, 
+                des lieux, des villes et des sites. Simfony a grandement simplifié plusieurs parties du développement comme 
+                la gestion de la base de données et ses relations, la création des entités, le formulaire de connexion, etc. 
+                En conclusion, le projet a souffert d'un manque de temps pour peaufiner l'aspect stylistique du site et résoudre certains bugs significatifs. 
+                Cela souligne l'importance d'une meilleure gestion de projet qu'il nous a manqué, 
+                notamment à travers des revues de code entre pairs et une gestion plus efficace des branches. Malgré tout, 
+                le projet a été une expérience d'apprentissage enrichissante, tant sur le plan des technologies utilisées que de la gestion de projet.
+              </p>
+          </div>
+       
+        </section>
+       
+
+        </div>
+
+      </Section>
       <div className={styles["double-section"]}>
         <section>
           <h2>BTS SIO (SLAM)</h2>
@@ -113,7 +180,7 @@ const Etudes = () => {
         </section>
       </div>
       <Section>
-        <h2>Quelques activités réalisées en 1er année</h2>
+        <h2>Quelques activités réalisées pendant mon BTS</h2>
         <p className={styles["sous-titre"]}>
           Les travaux pendant la 1er ont majoritairement étaient réalisés
           pendant le confinement, et donc en autonomie

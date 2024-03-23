@@ -78,7 +78,11 @@
   text-align: center;
   margin: 20px 0;
 }
-
+.eni{
+  h3{
+    padding: 20px 20px 0;
+  }
+}
 .row1, .row3, .row2{
   display: flex;
   margin-bottom: 20px;
@@ -99,7 +103,7 @@
   max-width: 600px;
 }
 
-.row1 .image-container, .row2 .image-container, .row3 .image-container{
+.image-container{
   margin: 0 20px;
   position: relative;
   width: 40vw; 
@@ -118,6 +122,12 @@
 .row3 .image-container{
   max-width: 700px;
 }
+.eni .image-container{
+  margin: 20px auto;
+  width: clamp(60vw, 4vw, 100vw); 
+  height: clamp(40vw, 4vw, 100vw);
+}
+
 .sio-image{
   -o-object-fit: contain;
      object-fit: contain;
@@ -180,9 +190,13 @@
   .row1 .image-container, .row2 .image-container, .row3 .image-container{
     min-height: 250px;
     width: 90vw;
-    max-width: 100%;
+    max-width: 90%;
     display: flex;
     justify-content: center;
-
+  }
+  .eni .image-container{
+    margin: auto;
+    width: 100vw; 
+    height: 66vw;
   }
 }

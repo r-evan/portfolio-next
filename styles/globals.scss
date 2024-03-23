@@ -52,7 +52,7 @@ body::-webkit-scrollbar {
   width: 100vw !important;
 }
 
-@supports (-moz-appearance: none) {
+@supports not ((backdrop-filter: blur(120px)) or (-webkit-backdrop-filter: blur(120px))) {
   .background {
     display: none;
   }
@@ -62,10 +62,9 @@ body::-webkit-scrollbar {
   }
   .page {
     backdrop-filter: blur(0px);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
-
 @media screen and (max-width: 610px) {
   .background {
     display: none;
@@ -76,7 +75,7 @@ body::-webkit-scrollbar {
   }
   .page {
     backdrop-filter: blur(0px);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
 

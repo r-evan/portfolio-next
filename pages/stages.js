@@ -10,7 +10,7 @@ const Stages = () => {
     return (
         <Container>
             <Head>
-                <title>Stages - Portfolio Evan Rioual</title>
+                <title>Alternances - Portfolio Evan Rioual</title>
                 <meta name="description" content="Page de présentation de mes différents stages,
                 et de certaine activités durant">
                 </meta>
@@ -21,7 +21,7 @@ const Stages = () => {
                     <span></span>
                     <span></span>
                     <span></span>
-                    <h2>Mes Stages</h2>
+                    <h2>Alternance</h2>
                 </div>
             </div>
             <div className={styles.paras}>
