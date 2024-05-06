@@ -117,8 +117,11 @@ const Cv = () => {
               D&apos;ALTERNANCE
             </h3>
             <p>
-              Actuellement en formation à l&apos;ENI, je recherche une école
-              pour poursuivre mes études vers un BAC + 5 orienté informatique.
+              Actuellement en alternance pour obtenir mon titre RNCP de
+              Concepteur Développeur d&apos;Applications, je suis à la recherche
+              d'une nouvelle opportunité d'alternance d'un an afin de continuer
+              vers la formation Manager de Solutions Digitales et Data (niveau
+              BAC+5) à l&apos;ENI.
             </p>
           </div>
           <div className={styles.exp}>
@@ -129,9 +132,11 @@ const Cv = () => {
               </p>
               <p className={styles["stage-date"]}>Depuis Octobre 2023</p>
               <p>
-                <b>Tâche réalisée : </b>Correction d'incidents et d'anomalies
-                sur l'ERP, outils utilisés : SQL Développeur, Talend, APEX,
-                Putty.
+              Je contribue à la correction et au développement de nouvelles
+              fonctionnalités sur l&apos;ERP d&apos;un client en utilisant principalement des
+              outils Oracle tels que APEX et SQL Developer. Actuellement, je
+              participe à un projet en méthodologie agile, en contraste avec le
+              reste des développements qui suivent un cycle en V
               </p>
             </div>
             <div className={styles.stage}>
@@ -142,10 +147,9 @@ const Cv = () => {
                 Déc 2022 - Sep 2023 (10 mois)
               </p>
               <p>
-                <b>Tâche réalisée : </b>Conception d'outils de gestion en
-                Windev, tel que la modification des utilisateurs ou la gestion
-                des bons de livraison, développement d'un service pour traiter
-                certains mails.
+              Conception d&apos;outils de gestion en Windev, tel que la modification
+              des utilisateurs ou la gestion des bons de livraison, développement
+              d'un service pour traiter certains mails.
               </p>
             </div>
             <div className={styles.stage}>
@@ -156,16 +160,8 @@ const Cv = () => {
                 Déc 2021 - Janv 2022 (7 semaines)
               </p>
               <p>
-                <b>Tâche réalisée : </b>Création d&apos;un site web Wordpress
-                pour la marque, ce dernier incluant une boutique, un blog, une
-                carte, etc.{" "}
-                <a
-                  href="https://instantsbotaniques.com/"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  https://instantsbotaniques.com/
-                </a>
+              Création d'un site d&apos;E-commerce Wordpress pour l&apos;entreprise, ce
+              dernier incluant en plus un blog et une carte des lieux de vente.
               </p>
             </div>
             <div className={styles.stage}>
@@ -176,10 +172,9 @@ const Cv = () => {
                 Mai 2021 - Juin 2021 (1mois)
               </p>
               <p>
-                <b>Tâches réalisées : </b>Assistance des techniciens dans la
-                mise en place de scripts sous Windows, Dépannage et
-                administration du parc informatique de L’IUT, Déploiement du
-                service en ligne ScoDoc.
+              Assistance des techniciens dans la mise en place de scripts sous
+              Windows, Dépannage et administration du parc informatique de
+              L&apos;IUT, Déploiement du service en ligne ScoDoc
               </p>
             </div>
             <div className={styles.stage}>
@@ -190,9 +185,9 @@ const Cv = () => {
                 Nov. 2019 – Dec. 2019 (1mois)
               </p>
               <p>
-                <b>Tâches réalisées : </b>Assistance des techniciens dans le
-                câblage des baies de brassage / locaux techniques / data center,
-                administration des routeurs / switchs du parc informatique.
+              Assistance des techniciens dans le câblage des baies de brassage
+              et des locaux techniques, administration des routeurs et des
+              switchs du parc informatique.
               </p>
             </div>
             {/* <div className={styles.stage}>

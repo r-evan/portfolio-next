@@ -28,22 +28,21 @@ const Etudes = () => {
         <section>
           <h2>Alternance CDA à l'ENI</h2>
           <p>
-            Je suis actuellement en alternance à l'ENI dans leur formation
-            niveau BAC + 4 concepteurs développeurs d'applications(CDA), l'école
-            est à Quimper
-          </p>
-          <br></br>
-          <p>
-            Cette formation était pour moi la suite logique de mon BTS SIO, à
-            par l'ENI j'aurais pu m'orienter vers une licence CDA à Brest mais
-            l'expérience à gagner en entreprise à déterminer mon choix.
+          Je suis actuellement en alternance à l'ENI dans leur formation niveau BAC + 4 
+          concepteurs développeurs d'applications (CDA). L'école est à Quimper.
           </p>
           <br />
           <p>
-            L'entreprise dans laquelle j'effectue mon alternance est CGI, le
-            groupe est leader mondial du conseil et des services numériques. Au
-            sein de cette dernière je traite pour le moment des incidents sur
-            l'ERP, avec les outils SQL développeur, Talend, APEX et Putty.
+            Cette formation était pour moi la suite logique de mon BTS SIO. 
+            À part l'ENI, j'aurais pu m'orienter vers une licence CDA à Brest, 
+            mais l'expérience à gagner en entreprise a déterminé mon choix.
+          </p>
+          <br />
+          <p>
+            L'entreprise dans laquelle j'effectue mon alternance est CGI, 
+            le groupe est leader mondial du conseil et des services numériques. 
+            Au sein de cette dernière, je traite pour le moment des incidents sur l'ERP, 
+            avec les outils SQL developer, Talend, APEX et Putty.
           </p>
         </section>
         <section>
@@ -59,7 +58,6 @@ const Etudes = () => {
                 - Le développement en couches et la persistance des données avec
                 Java SE
               </li>
-
               <li> - Le développement BackEnd avec Java EE</li>
               <li> - Projet : Développement d’une app Java EE</li>
               <li> - Analyse et conception</li>
@@ -70,6 +68,9 @@ const Etudes = () => {
               <li> - Le développement web avec Wordpress</li>
               <li> - Le développement mobile sous Android</li>
               <li> - Projet : Développement d’une app avec Java EE</li>
+              <li> - Le développement Java EE avec Spring</li>
+              <li> - Gestion de projet</li>
+              <li> - Administration d'un serveur Apache sous Linux</li>
             </ul>
           </p>
         </section>
@@ -79,7 +80,7 @@ const Etudes = () => {
 
         <h2>Projets réalisés à l'ENI</h2>
         <p className={styles["sous-titre"]}>
-          Durant les deux années de formation, j'ai réalisé trois projets dans le cadre des cours, chacun s'étendant sur une période de deux semaines.        
+          Durant les deux années de formation, j'ai réalisé deux projets dans le cadre des cours, chacun s'étendant sur une période de deux semaines.        
         </p>
         <section >
           <div>
