@@ -15,12 +15,12 @@ const Nav = () => {
       <li>
         <Link href="/stages">Alternance</Link>
       </li>
-      <li>
+      {/* <li>
         <Link href="/fiche-de-competence">Fiche de compétences</Link>
       </li>
       <li>
         <Link href="/veille-informationnelle">Veille informationnelle</Link>
-      </li>
+      </li> */}
     </ul>
   );
 };

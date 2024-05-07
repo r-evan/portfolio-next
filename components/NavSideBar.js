@@ -23,7 +23,7 @@ const Nav = ({ handleClickOut }) => {
           <a onClick={handleClickOut}>Alternance</a>
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link href="/fiche-de-competence">
           <a onClick={handleClickOut}>Fiche de compétences</a>
         </Link>
@@ -32,7 +32,7 @@ const Nav = ({ handleClickOut }) => {
         <Link href="/veille-informationnelle">
           <a onClick={handleClickOut}>Veille informationnelle</a>
         </Link>
-      </li>
+      </li> */}
     </ul>
   );
 };
