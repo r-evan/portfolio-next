@@ -10,7 +10,7 @@ const Nav = () => {
         <Link href="/etudes">Études</Link>
       </li>
       <li>
-        <Link href="/cv">CV & Travaux</Link>
+        <Link href="/cv">CV & Réalisations</Link>
       </li>
       <li>
         <Link href="/stages">Alternance</Link>
