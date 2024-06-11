@@ -29,7 +29,7 @@ const Cv = () => {
           <span></span>
           <span></span>
           <span></span>
-          <h1>CV & Travaux</h1>
+          <h1>CV & Réalisations</h1>
         </div>
       </section>
 
