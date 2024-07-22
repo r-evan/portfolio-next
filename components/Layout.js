@@ -12,17 +12,13 @@ export default function Layout({ children }) {
       <NavBar />
 
       <div className="background">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
       </div>
       <div className="page">{children}</div>
 

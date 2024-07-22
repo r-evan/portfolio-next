@@ -204,27 +204,27 @@ const Cv = () => {
               titre={"JavaScript / React"}
               visible={visible}
               i={"1"}
-              width={"70%"}
+              width={"50%"}
             />
-            <Jauge titre={"SQL"} visible={visible} i={"2"} width={"80%"} />
+            <Jauge titre={"PL SQL"} visible={visible} i={"2"} width={"60%"} />
             <Jauge
               titre={"PHP / Symphony"}
               visible={visible}
               i={"3"}
-              width={"55%"}
+              width={"40%"}
             />
-            <Jauge titre={"Windev"} visible={visible} i={"4"} width={"65%"} />
+            <Jauge titre={"Windev"} visible={visible} i={"4"} width={"35%"} />
             <Jauge
-              titre={"Java / Java EE"}
+              titre={"Java EE"}
               visible={visible}
               i={"5"}
-              width={"55%"}
+              width={"30%"}
             />
             <Jauge
               titre={"HTML / CSS"}
               visible={visible}
               i={"6"}
-              width={"83%"}
+              width={"75%"}
             />
           </div>
         </main>
