@@ -28,8 +28,8 @@ const Etudes = () => {
         <section>
           <h2>Alternance CDA à l'ENI</h2>
           <p>
-          Je suis actuellement en alternance à l'ENI dans leur formation niveau BAC + 4 
-          concepteurs développeurs d'applications (CDA). L'école est à Quimper.
+            J'ai récemment obtenu mon diplôme de Concepteur Développeur d'Applications (BAC+4) après deux années 
+            d'alternance à l'ENI, dans le cadre de leur formation CDA à Quimper.
           </p>
           <br />
           <p>
@@ -39,35 +39,27 @@ const Etudes = () => {
           </p>
           <br />
           <p>
-            L'entreprise dans laquelle j'effectue mon alternance est CGI, 
-            le groupe est leader mondial du conseil et des services numériques. 
-            Au sein de cette dernière, je traite pour le moment des incidents sur l'ERP, 
-            avec les outils SQL developer, Talend, APEX et Putty.
+            L'entreprise dans laquelle j'effectue mon alternance est CGI, l'un des leaders mondiaux dans le 
+            domaine des services-conseils en technologie de l'information. Au sein de CGI, ma mission consiste 
+            à réaliser des évolutions et des correctifs sur l'ERP Oracle EBS d'un client. Les principaux outils que 
+            j'utilise sont SQL Developer, Talend, APEX et PuTTY.
           </p>
         </section>
         <section>
-          <p>Pour le moment j'ai vu en cours :</p>
+          <p>Voici un résumé de ce que j'ai appris en cours :</p>
           <br />
           <p>
             <ul>
-              <li> - Le langage SQL avec SQL Server</li>
-              <li> - Les procédures stockées en PL/SQL</li>
-              <li> - La POO avec Java</li>
-              <li>
-                {" "}
-                - Le développement en couches et la persistance des données avec
-                Java SE
-              </li>
+              <li> - Le langage SQL puis PL SQL</li>
+              <li> - Le développement en couches avec Java SE </li>
               <li> - Le développement BackEnd avec Java EE</li>
               <li> - Projet : Développement d’une app Java EE</li>
-              <li> - Analyse et conception</li>
               <li> - Le développement Frontend avec Javascript</li>
               <li> - Le développement Backend avec PHP</li>
               <li> - Le développement Backend avec Symfony</li>
               <li> - Projet : Développement d'une app Symfony</li>
               <li> - Le développement web avec Wordpress</li>
               <li> - Le développement mobile sous Android</li>
-              <li> - Projet : Développement d’une app avec Java EE</li>
               <li> - Le développement Java EE avec Spring</li>
               <li> - Gestion de projet</li>
               <li> - Administration d'un serveur Apache sous Linux</li>

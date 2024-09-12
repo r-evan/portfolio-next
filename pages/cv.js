@@ -60,6 +60,12 @@ const Cv = () => {
           </div>
           <div className={`${styles.block} ${styles.form}`}>
             <h3>FORMATION</h3>
+            <p>Concepteur développeur</p>
+            <p>d'applications (CDA)</p>
+            <p>ENI Quimper 2022 - 2024</p>
+            <p>Diplôme obtenu</p>
+            <br></br>
+
             <p>BTS SIO (option SLAM)</p>
             <p>Lycée Chaptal 2020 - 2022</p>
             <p>Diplôme obtenu (avec 14.31)</p>
@@ -113,15 +119,14 @@ const Cv = () => {
         <main className={styles.main}>
           <div className={styles.profil}>
             <h3>
-              CONCEPTEUR DÉVELOPPEUR D&apos;APPLICATIONS, RECHERCHE
+              CONCEPTEUR DÉVELOPPEUR D&apos;APPLICATIONS, EN RECHERCHE
               D&apos;ALTERNANCE
             </h3>
             <p>
-              Actuellement en alternance pour obtenir mon titre RNCP de
-              Concepteur Développeur d&apos;Applications, je suis à la recherche
-              d'une nouvelle opportunité d'alternance d'un an afin de continuer
-              vers la formation Manager de Solutions Digitales et Data (niveau
-              BAC+5) à l&apos;ENI.
+            Titulaire d&apos;un diplôme de Concepteur Développeur d&apos;Applications (BAC+4), 
+            je suis à la recherche d'une nouvelle opportunité d&apos;alternance d&apos;un an afin
+             de continuer vers la formation Manager de Solutions Digitales et Data
+              (niveau BAC+5) de l'ENI.
             </p>
           </div>
           <div className={styles.exp}>
@@ -132,11 +137,9 @@ const Cv = () => {
               </p>
               <p className={styles["stage-date"]}>Depuis Octobre 2023</p>
               <p>
-              Je contribue à la correction et au développement de nouvelles
-              fonctionnalités sur l&apos;ERP d&apos;un client en utilisant principalement des
-              outils Oracle tels que APEX et SQL Developer. Actuellement, je
-              participe à un projet en méthodologie agile, en contraste avec le
-              reste des développements qui suivent un cycle en V
+              Je contribue à la correction et au développement de nouvelles fonctionnalités 
+              sur l&apos;ERP Oracle E-Business Suite (OEBS) d&apos;un client, en utilisant principalement 
+              des outils tels qu&apos;APEX, SQL Developer et Talend.
               </p>
             </div>
             <div className={styles.stage}>
@@ -148,9 +151,9 @@ const Cv = () => {
               </p>
               <p>
               Conception d&apos;outils de gestion en Windev, tel que la modification
-              des utilisateurs ou la gestion des bons de livraison, développement
-              d'un service pour traiter certains mails.
-              </p>
+              des utilisateurs ou la gestion des bons de livraison, 
+              Développement d&apos;un service pour traiter les pièces jointes d&apos;emails spécifiques
+               reçus dans une boîte mail</p>
             </div>
             <div className={styles.stage}>
               <p className={styles["stage-titre"]}>
