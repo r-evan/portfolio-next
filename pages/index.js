@@ -4,9 +4,9 @@ import Script from "next/script";
 import Image from "next/image";
 import Etudes from "./etudes";
 import CvContent from "../components/cv-content";
-import { useRef, useState } from "react/cjs/react.development";
+import { useState, useRef } from 'react';
 
-const Cv = () => {
+const Home = () => {
 
   const [visible, setVisible] = useState(false);
     const container = useRef(null);
@@ -243,4 +243,4 @@ const Cv = () => {
   );
 };
 
-export default Cv;
+export default Home;

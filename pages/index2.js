@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "../styles/index.module.scss";
 import BlocNav from "../components/BlocNav";
 
-const Home = () => {
+const Home2 = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -68,4 +68,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home2;

@@ -1,6 +1,4 @@
 import React from 'react';
-import { useState } from 'react';
-import { useRef } from 'react/cjs/react.development';
 import Jauge from './Jauge';
 import Image from 'next/image';
 import styles from "../styles/cv.module.scss";
@@ -206,7 +204,7 @@ const CvContent = ({visible, hiddenRef}) => {
               />
             </div>
           </main>
-          
+
         <Script
             strategy="beforeInteractive"
             type="module"
