@@ -4,25 +4,21 @@ const Nav = ({ handleClickOut }) => {
   return (
     <ul>
       <li>
-        <Link href="/">
-          <a onClick={handleClickOut}>Accueil</a>
+        <Link href="#cv"> 
+          <a onClick={handleClickOut}>CV</a>
         </Link>
       </li>
       <li>
-        <Link href="/etudes">
+        <Link href="#realisations" >
+          <a onClick={handleClickOut}>Réalisations</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="#etudes">
           <a onClick={handleClickOut}>Études</a>
         </Link>
       </li>
-      <li>
-        <Link href="/cv">
-          <a onClick={handleClickOut}>CV & Réalisations</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/stages">
-          <a onClick={handleClickOut}>Alternance</a>
-        </Link>
-      </li>
+  
       {/* <li>
         <Link href="/fiche-de-competence">
           <a onClick={handleClickOut}>Fiche de compétences</a>

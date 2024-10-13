@@ -6,9 +6,6 @@
     -ms-scroll-snap-type: y mandatory;
         scroll-snap-type: y mandatory;
 }
-.container::-webkit-scrollbar {
-  display: none;
-}
 
 .section{
   display: flex;

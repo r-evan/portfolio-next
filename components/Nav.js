@@ -4,23 +4,14 @@ const Nav = () => {
   return (
     <ul>
       <li>
-        <Link href="/">Accueil</Link>
+        <Link href="#cv">CV</Link>
       </li>
       <li>
-        <Link href="/etudes">Études</Link>
+        <Link href="#realisations">Réalisations</Link>
       </li>
       <li>
-        <Link href="/cv">CV & Réalisations</Link>
+        <Link href="#etudes">Études</Link>
       </li>
-      <li>
-        <Link href="/stages">Alternance</Link>
-      </li>
-      {/* <li>
-        <Link href="/fiche-de-competence">Fiche de compétences</Link>
-      </li>
-      <li>
-        <Link href="/veille-informationnelle">Veille informationnelle</Link>
-      </li> */}
     </ul>
   );
 };

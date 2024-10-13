@@ -28,7 +28,7 @@ const Stages = () => {
                 <h2>Effectué pendant le BTS :</h2>
                 <div className={styles["para"]} >
                     <section>
-                        <h3>Stage du 6 Décembre au 28 janvier à Instants Botaniques</h3>
+                        <h3>Stage du 6 Décembre au 28 janvier 2022 à Instants Botaniques</h3>
                         <div className={styles["image-container"]}>
                             <Image alt="logo iut quimper" src="/ib.jpg" layout="fill" className={styles["image"]} />
 

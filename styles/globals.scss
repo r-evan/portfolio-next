@@ -7,6 +7,39 @@
   --bg-pattern: #0046d4;
 
 }
+/* Style général de la barre de défilement */
+::-webkit-scrollbar {
+  width: 18px; /* Largeur de la scrollbar */
+}
+
+/* Style de la zone de fond de la scrollbar (track) */
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+/* Ajouter un espace vide en haut du curseur (thumb) */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgb(165, 179, 245) 5%, rgb(95, 95, 253) 100%);
+  border-radius: 9px;
+  border: 4px solid transparent;
+  background-clip: padding-box;
+  min-height: 80px; /* Hauteur minimale du curseur */
+
+  
+}
+
+/* Optionnel : ajuster la taille du track (le fond de la scrollbar) */
+::-webkit-scrollbar-track {
+  margin-top: 70px; /* Simule une marge en haut pour éviter que la scrollbar ne débute au niveau du menu */
+  background-color: #1d1a20;
+}
+@-moz-document url-prefix() {
+  /* Exclure les modifications de la scrollbar pour Firefox ici */
+  .content {
+    scrollbar-width: auto; /* Réinitialiser la scrollbar dans Firefox */
+    scrollbar-color: auto; /* Utiliser le style par défaut dans Firefox */
+  }
+}
+
 p,
 a,
 h1,
@@ -14,7 +47,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+ul {
   color: white;
 }
 ul,
@@ -34,9 +68,7 @@ body {
   z-index: -2;
   overflow: hidden;
 }
-body::-webkit-scrollbar {
-  display: none;
-}
+
 .topbar h2 {
   cursor: pointer;
 }
@@ -44,9 +76,7 @@ body::-webkit-scrollbar {
   -webkit-backdrop-filter: blur(0px);
   backdrop-filter: blur(0px);
 }
-.container::-webkit-scrollbar {
-  display: none;
-}
+
 .background {
   overflow: hidden !important;
   position: absolute !important;
@@ -75,7 +105,10 @@ body::-webkit-scrollbar {
   left: 0;
   margin: 0;
   padding: 0;
-  background: #0a0d43;
+  //background: radial-gradient(circle, rgba(0,0,101,1) 0%, rgba(61,61,255,1) 100%);
+  // background: linear-gradient(90deg, rgba(0,0,182,1) 0%, rgba(46,85,252,1) 5%, rgba(0,70,180,1) 50%, rgba(46,85,252,1) 95%, rgba(0,0,182,1) 100%);
+  background: linear-gradient(90deg, rgba(0,89,182,1) 0%, rgba(46,85,252,1) 50%, rgba(0,0,182,1) 100%);
+
   overflow: hidden;
 }
 .background li {

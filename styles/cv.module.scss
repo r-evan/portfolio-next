@@ -12,9 +12,6 @@
     align-items: center;
     overflow-x: hidden;
 }
-.container::-webkit-scrollbar {
-    display: none;
-}
 
 .titre span:nth-child(1) {
     left: 0;
@@ -106,17 +103,7 @@
     height: 50px !important;
     filter: invert(1);
     transform: translateX(0);
-
-   
 }
-
-// .piano, .muscu, .hacker{
-//     -o-object-fit: contain;
-//     object-fit: contain;
-//     width: 100% !important;
-//     position: relative !important;
-//     height: 100% !important;
-// }
 
 .icon {
     display: flex;

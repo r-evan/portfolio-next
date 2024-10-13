@@ -1,138 +1,86 @@
 import styles from "../styles/etude.module.scss";
-import Head from "next/head";
-import Container from "../components/Container";
 import Section from "../components/Section";
 import Image from "next/image";
 
 const Etudes = () => {
   return (
-    <Container>
-      <Head>
-        <title>Études - Portfolio Evan Rioual</title>
-        <meta
-          name="description"
-          content="Page de présentation de mes études du Portfolio,
-                vous y trouverez mon cursus scolaire ainsi que quelques activités réalisées durant"
-        ></meta>
-      </Head>
-      <div className={styles.section}>
-        <div className={styles.titre}>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <h2>Mes Études</h2>
-        </div>
-      </div>
+    <div id="etudes"> 
+ 
+
       <div className={styles["double-section"]}>
         <section>
           <h2>Alternance CDA à l'ENI</h2>
-          <p>
-            J'ai récemment obtenu mon diplôme de Concepteur Développeur d'Applications (BAC+4) après deux années 
-            d'alternance à l'ENI, dans le cadre de leur formation CDA à Quimper.
-          </p>
-          <br />
-          <p>
-            Cette formation était pour moi la suite logique de mon BTS SIO. 
-            À part l'ENI, j'aurais pu m'orienter vers une licence CDA à Brest, 
-            mais l'expérience à gagner en entreprise a déterminé mon choix.
-          </p>
-          <br />
-          <p>
-            L'entreprise dans laquelle j'effectue mon alternance est CGI, l'un des leaders mondiaux dans le 
-            domaine des services-conseils en technologie de l'information. Au sein de CGI, ma mission consiste 
-            à réaliser des évolutions et des correctifs sur l'ERP Oracle EBS d'un client. Les principaux outils que 
-            j'utilise sont SQL Developer, Talend, APEX et PuTTY.
-          </p>
+          <p> J'ai récemment obtenu mon diplôme de Concepteur Développeur d'Applications
+            (BAC+4) après deux années d'alternance à l'ENI, dans le cadre de leur formation à Quimper.
+          </p> <br />
+          <p> Cette formation représente pour moi la continuité logique de mon BTS SIO. Bien que j'ai eu la
+            possibilité de m'orienter vers une licence CDA à Brest, c'est l'expérience pratique en entreprise qui a
+            orienté mon choix vers l'ENI. </p> <br /> <p> J'effectue mon alternance au sein de CGI, l'un des leaders mondiaux
+              en services-conseils en technologie de l'information. Ma mission consistais à mettre en œuvre des évolutions et des
+              correctifs sur l'ERP Oracle EBS d'un client. Pour cela, j'utilisais principalement SQL Developer, Talend, APEX et PuTTY.</p>
         </section>
         <section>
-          <p>Voici un résumé de ce que j'ai appris en cours :</p>
-          <br />
-          <p>
-            <ul>
-              <li> - Le langage SQL puis PL SQL</li>
-              <li> - Le développement en couches avec Java SE </li>
-              <li> - Le développement BackEnd avec Java EE</li>
-              <li> - Projet : Développement d’une app Java EE</li>
-              <li> - Le développement Frontend avec Javascript</li>
-              <li> - Le développement Backend avec PHP</li>
-              <li> - Le développement Backend avec Symfony</li>
-              <li> - Projet : Développement d'une app Symfony</li>
-              <li> - Le développement web avec Wordpress</li>
-              <li> - Le développement mobile sous Android</li>
-              <li> - Le développement Java EE avec Spring</li>
-              <li> - Gestion de projet</li>
-              <li> - Administration d'un serveur Apache sous Linux</li>
-            </ul>
-          </p>
+          <h3>Compétences Acquises</h3>
+          <p>Voici un aperçu des compétences que j'ai développées durant ma formation :</p> <br />
+          <ul>
+            <li>Langage SQL et PL/SQL</li>
+            <li>Développement en couches avec Java SE</li>
+            <li>Développement Backend avec Java EE</li>
+            <li>Projet : Développement d’une application Java EE</li>
+            <li>Développement Frontend avec JavaScript</li>
+            <li>Développement Backend avec PHP</li>
+            <li>Développement Backend avec Symfony</li>
+            <li>Projet : Développement d'une application Symfony</li>
+            <li>Développement web avec WordPress</li>
+            <li>Développement mobile sous Android</li>
+            <li>Développement Java EE avec Spring</li>
+            <li>Gestion de projet</li>
+            <li>Administration d'un serveur Apache sous Linux</li>
+          </ul>
         </section>
       </div>
       <Section>
-        <div className={styles["eni"]}> 
+        <div className={styles["eni"]}>
 
-        <h2>Projets réalisés à l'ENI</h2>
-        <p className={styles["sous-titre"]}>
-          Durant les deux années de formation, j'ai réalisé deux projets dans le cadre des cours, chacun s'étendant sur une période de deux semaines.        
-        </p>
-        <section >
-          <div>
-          <h3>Projet sortie : </h3>
-            <p>
-              En décembre 2023, j'ai collaboré avec trois autres étudiants de l'ENI sur un projet de deux semaines. 
-              Notre évaluation s'est davantage concentrée sur la gestion de projet et l'organisation du code que sur les 
-              fonctionnalités mises en œuvre sur le site créé. 
-              L'utilisation de Symfony comme technologie de développement 
-              était la seule contrainte imposée. Nous avons choisi d'utiliser Trello et GitLab pour la répartition des tâches, 
-              la gestion du code, et dans une moindre mesure, la révision du code. 
-              Trello est un outil en ligne gratuit qui facilite l'organisation des tâches de manière simple et 
-              intuitive sur un tableau. GitLab, au-delà de la gestion de versions cruciale à tout projet, 
-              nous a permis d'expérimenter avec les "issues" pour une meilleure gestion des branches.
-            </p><br/>
+          <h2>Projets Réalisés à l'ENI</h2>
+          <p className={styles["sous-titre"]}> Au cours de mes deux années de formation, j'ai mené à bien plusieurs projets dans le cadre des cours, chacun d'une durée de deux semaines. </p>
+          <section>
+            <div>
+              <h3>Projet Sortie</h3>
+              <p> En décembre 2023, j'ai collaboré avec trois autres étudiants de l'ENI sur un projet de deux semaines.
+                Notre évaluation s'est principalement concentrée sur la gestion de projet et l'organisation du code,
+                plutôt que sur les fonctionnalités mises en œuvre sur le site. Nous avons choisi Symfony comme technologie de développement,
+                conformément à la seule contrainte imposée. Pour la répartition des tâches et la gestion du code,
+                nous avons utilisé Trello et GitLab, bien que Trello ait été notre principal outil pour organiser les tâches de manière simple et intuitive.
+                GitLab, en plus de sa gestion de versions essentielle, nous a permis d'expérimenter les "issues" pour une meilleure gestion des branches. </p>
               
+              <br />
+
               <Image
-                alt="Gitlab gestion des issues"
+                alt="Gestion des issues sur GitLab"
                 src="/gitlab-issues1.png"
                 width={1074}
                 height={185}
                 layout="responsive"
-              /><br/>
+              />
+              <br />
               <p>
-                Le cahier des charges du projet était assez conséquent. En restant consis, 
-                le site devait permettre la création d'événements ("sorties"), 
-                auxquels les utilisateurs inscrits pouvaient participer. 
-                Ces sorties pouvaient avoir plusieurs états (créé, publié, en cours, archivé, annulé, etc.), 
-                impliquant la gestion de lieux, d'établissements scolaires ("sites"), entre autres. 
-                Une gestion des droits d'accès spécifique a également était mise en place, 
-                réservant par exemple la gestion des "sites" et des droits des membres aux administrateurs, 
-                tandis que les utilisateurs pouvaient s'inscrire, créer et gérer leurs propres sorties.
+                Le cahier des charges du projet était riche et détaillé. Le site devait permettre la création d'événements ("sorties") auxquels les utilisateurs inscrits pouvaient participer. Ces sorties pouvaient avoir plusieurs états (créé, publié, en cours, archivé, annulé, etc.) et nécessitaient la gestion de lieux, d'établissements scolaires ("sites"), entre autres. Une gestion des droits d'accès spécifique a également été mise en place : par exemple, la gestion des "sites" et les droits des membres étaient réservés aux administrateurs, tandis que les utilisateurs pouvaient s'inscrire, créer et gérer leurs propres sorties.
               </p>
-
               <div className={styles["image-container"]}>
-                  <Image
-                    alt="Image du site en tant qu'administrateur"
-                    src="/site-admin1.png"
-                    layout="fill"
-                    
-                    className={styles["eni-image"]}
-                  />
+                <Image
+                  alt="Vue du site en tant qu'administrateur"
+                  src="/site-admin1.png"
+                  layout="fill"
+                  className={styles["eni-image"]}
+                />
               </div>
-
               <p>
-                Sur le plan du développement, j'ai consacré l'essentiel de mon temps à la gestion des sorties, 
-                des lieux, des villes et des sites. Simfony a grandement simplifié plusieurs parties du développement comme 
-                la gestion de la base de données et ses relations, la création des entités, le formulaire de connexion, etc. 
-                En conclusion, le projet a souffert d'un manque de temps pour peaufiner l'aspect stylistique du site et résoudre certains bugs significatifs. 
-                Cela souligne l'importance d'une meilleure gestion de projet qu'il nous a manqué, 
-                notamment à travers des revues de code entre pairs et une gestion plus efficace des branches. Malgré tout, 
-                le projet a été une expérience d'apprentissage enrichissante, tant sur le plan des technologies utilisées que de la gestion de projet.
+                Du côté développement, j'ai principalement travaillé sur la gestion des sorties, des lieux, des villes et des sites. Symfony a grandement facilité plusieurs aspects du développement, tels que la gestion de la base de données et ses relations, la création des entités et le formulaire de connexion. En conclusion, bien que le projet ait souffert d'un manque de temps pour peaufiner l'aspect stylistique et résoudre certains bugs, il a souligné l'importance d'une gestion de projet améliorée, notamment par le biais de revues de code entre pairs et d'une gestion plus efficace des branches. Malgré ces défis, ce projet a constitué une expérience d'apprentissage précieuse, tant sur le plan technique que sur le plan de la gestion de projet.
               </p>
-          </div>
-       
-        </section>
-       
-
+            </div>
+          </section>
         </div>
-
       </Section>
       <div className={styles["double-section"]}>
         <section>
@@ -273,7 +221,7 @@ const Etudes = () => {
           </p>
         </section>
       </div>
-    </Container>
+    </div>
   );
 };
 
